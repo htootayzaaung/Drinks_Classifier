@@ -20,38 +20,105 @@ def download_images_from_google(query, brand_folder, num_images=100):
 
     image_urls = []
     for img in soup.find_all("img"):
-        image_urls.append(img["src"])
+        if img.get("src"):
+            image_urls.append(img["src"])
+
+    num_attempts = num_images // len(image_urls) + 1
+    for _ in range(num_attempts):
+        response = requests.get(search_url + f"&start={len(image_urls)}", headers=headers)
+        soup = BeautifulSoup(response.content, "html.parser")
+        for img in soup.find_all("img"):
+            if img.get("src"):
+                image_urls.append(img["src"])
+
+        time.sleep(1)  # Add a delay between requests to avoid overloading the website
 
     count = 0
     for i, img_url in enumerate(image_urls):
         try:
-            img_path = os.path.join(brand_folder, f"{i}.jpg")
-            urllib.request.urlretrieve(img_url, img_path)
-            count += 1
-            print(f"Downloaded {img_path}")
+            if img_url.startswith("http"):
+                img_path = os.path.join(brand_folder, f"{i}.jpg")
+                urllib.request.urlretrieve(img_url, img_path)
+                count += 1
+                print(f"Downloaded {img_path}")
 
-            # Open the downloaded image
-            with Image.open(img_path) as img:
-                # Rotate the image by 45 degrees and save it
-                img_rotated_45 = img.rotate(45)
-                img_rotated_45_path = os.path.join(brand_folder, f"{i}_rotated_45.jpg")
-                img_rotated_45.save(img_rotated_45_path)
+                # Open the downloaded image
+                with Image.open(img_path) as img:
+                    # Rotate the image by 45 degrees and save it
+                    img_rotated_45 = img.rotate(45)
+                    img_rotated_45_path = os.path.join(brand_folder, f"{i}_rotated_45.jpg")
+                    img_rotated_45.save(img_rotated_45_path)
 
-                # Rotate the image by 120 degrees and save it
-                img_rotated_120 = img.rotate(120)
-                img_rotated_120_path = os.path.join(brand_folder, f"{i}_rotated_120.jpg")
-                img_rotated_120.save(img_rotated_120_path)
+                    # Rotate the image by 120 degrees and save it
+                    img_rotated_120 = img.rotate(120)
+                    img_rotated_120_path = os.path.join(brand_folder, f"{i}_rotated_120.jpg")
+                    img_rotated_120.save(img_rotated_120_path)
 
-            if count >= num_images:
-                break
-            time.sleep(1)  # Add a delay between image downloads to avoid overloading the website
+                if count >= num_images:
+                    break
+                time.sleep(1)  # Add a delay between image downloads to avoid overloading the website
         except Exception as e:
             print(f"Error downloading image {i}: {e}")
 
+def download_images_from_unsplash(query, brand_folder, num_images=100, access_key=None):
+    api_url = f"https://api.unsplash.com/search/photos"
+    headers = {
+        "Authorization": f"Client-ID {access_key}",
+    }
+
+    params = {
+        "query": query,
+        "per_page": num_images,
+    }
+
+    response = requests.get(api_url, headers=headers, params=params)
+
+    if response.status_code == 200:
+        data = response.json()
+        for i, image_data in enumerate(data["results"]):
+            img_url = image_data["urls"]["full"]
+            try:
+                img_path = os.path.join(brand_folder, f"unsplash_{i}.jpg")
+                img_response = requests.get(img_url)
+                if img_response.status_code == 200:
+                    with open(img_path, "wb") as f:
+                        f.write(img_response.content)
+                    print(f"Downloaded {img_path}")
+
+                    # Open the downloaded image
+                    with Image.open(img_path) as img:
+                        # Rotate the image by 45 degrees and save it
+                        img_rotated_45 = img.rotate(45)
+                        img_rotated_45_path = os.path.join(brand_folder, f"unsplash_{i}_rotated_45.jpg")
+                        img_rotated_45.save(img_rotated_45_path)
+
+                        # Rotate the image by 120 degrees and save it
+                        img_rotated_120 = img.rotate(120)
+                        img_rotated_120_path = os.path.join(brand_folder, f"unsplash_{i}_rotated_120.jpg")
+                        img_rotated_120.save(img_rotated_120_path)
+                else:
+                    print(f"Error downloading image {i}: HTTP {img_response.status_code}")
+            except Exception as e:
+                print(f"Error downloading image {i}: {e}")
+            time.sleep(1)  # Add a delay between image downloads to avoid overloading the API
+
+    else:
+        print(f"Failed to fetch images. HTTP {response.status_code}")
+
 if __name__ == "__main__":
-    brands = ["Heineken", "Carlsberg", "Tiger"]  # Add more brands as needed
+    brands = [
+        "Heineken beer",
+        "Carlsberg beer",
+        "Tiger beer",
+        "Red Bull energy drink",
+        "Coca Cola",
+        "Pepsi"
+    ]  # Add more brands as needed
+
+    access_key = "M9JmKwZ5nDm20hVbXpbJH8ju1bMSLtmsp7CovYk6UBo"  # Replace with your actual Unsplash access key
 
     for brand in brands:
         brand_folder = create_brand_folder(brand)
-        query = f"{brand} can"  # You can modify the query as per your requirement
+        query = brand  # Use the brand name itself for Red Bull, Coca Cola, and Pepsi
+        download_images_from_unsplash(query, brand_folder, num_images=100, access_key=access_key)
         download_images_from_google(query, brand_folder, num_images=100)
