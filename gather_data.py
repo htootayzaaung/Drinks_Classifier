@@ -5,6 +5,7 @@ import urllib.request
 import time
 from PIL import Image
 import flickrapi
+from pexels_api import API
 
 def create_brand_folder(brand):
     brand_folder = f"Images/{brand.lower().replace(' ', '_')}_images"
@@ -45,18 +46,6 @@ def download_images_from_google(query, brand_folder, num_images=100):
                 count += 1
                 print(f"Downloaded {img_path}")
 
-                # Open the downloaded image
-                with Image.open(img_path) as img:
-                    # Rotate the image by 45 degrees and save it
-                    img_rotated_45 = img.rotate(45)
-                    img_rotated_45_path = os.path.join(brand_folder, f"{i}_rotated_45.jpg")
-                    img_rotated_45.save(img_rotated_45_path)
-
-                    # Rotate the image by 120 degrees and save it
-                    img_rotated_120 = img.rotate(120)
-                    img_rotated_120_path = os.path.join(brand_folder, f"{i}_rotated_120.jpg")
-                    img_rotated_120.save(img_rotated_120_path)
-
                 if count >= num_images:
                     break
                 time.sleep(1)  # Add a delay between image downloads to avoid overloading the website
@@ -94,27 +83,11 @@ def download_images_from_unsplash(query, brand_folder, num_images=100, access_ke
                     with open(img_path, "wb") as f:
                         f.write(img_response.content)
                     print(f"Downloaded {img_path}")
-
-                    # Open the downloaded image
-                    with Image.open(img_path) as img:
-                        # Rotate the image by 45 degrees and save it
-                        img_rotated_45 = img.rotate(45)
-                        img_rotated_45_path = os.path.join(brand_folder, f"unsplash_{i}_rotated_45.jpg")
-                        img_rotated_45.save(img_rotated_45_path)
-
-                        # Rotate the image by 120 degrees and save it
-                        img_rotated_120 = img.rotate(120)
-                        img_rotated_120_path = os.path.join(brand_folder, f"unsplash_{i}_rotated_120.jpg")
-                        img_rotated_120.save(img_rotated_120_path)
                 else:
                     print(f"Error downloading image {i}: HTTP {img_response.status_code}")
             except Exception as e:
                 print(f"Error downloading image {i}: {e}")
             time.sleep(1)  # Add a delay between image downloads to avoid overloading the API
-
-    else:
-        print(f"Failed to fetch images. HTTP {response.status_code}")
-
 
 #############################################       END OF UNSPLASH       #############################################
 
@@ -134,18 +107,6 @@ def download_images_from_flickr(query, brand_folder, num_images=100, api_key=Non
                 with open(img_path, "wb") as f:
                     f.write(img_response.content)
                 print(f"Downloaded {img_path}")
-
-                # Open the downloaded image
-                with Image.open(img_path) as img:
-                    # Rotate the image by 45 degrees and save it
-                    img_rotated_45 = img.rotate(45)
-                    img_rotated_45_path = os.path.join(brand_folder, f"flickr_{i}_rotated_45.jpg")
-                    img_rotated_45.save(img_rotated_45_path)
-
-                    # Rotate the image by 120 degrees and save it
-                    img_rotated_120 = img.rotate(120)
-                    img_rotated_120_path = os.path.join(brand_folder, f"flickr_{i}_rotated_120.jpg")
-                    img_rotated_120.save(img_rotated_120_path)
             else:
                 print(f"Error downloading image {i}: HTTP {img_response.status_code}")
         except Exception as e:
@@ -154,6 +115,8 @@ def download_images_from_flickr(query, brand_folder, num_images=100, api_key=Non
 
 
 #############################################       END OF FLICKR       #############################################
+
+#############################################       MAIN FUNCTION       #############################################
 
 if __name__ == "__main__":
     brands = [
@@ -169,11 +132,11 @@ if __name__ == "__main__":
     api_key = "7dffe0a73bba4d9e5671fb934e2a6d62"  # Replace with your actual Flickr API key
     api_secret = "b1e876ee5fb6acbd"  # Replace with your actual Flickr API secret
 
-
     for brand in brands:
         brand_folder = create_brand_folder(brand)
         query = brand  # Use the brand name itself for Red Bull, Coca Cola, and Pepsi
-        #download_images_from_unsplash(query, brand_folder, num_images=100, access_key=access_key)
-        #download_images_from_google(query, brand_folder, num_images=100)
+        download_images_from_unsplash(query, brand_folder, num_images=100, access_key=access_key)
+        download_images_from_google(query, brand_folder, num_images=100)
         download_images_from_flickr(query, brand_folder, num_images=100, api_key=api_key, api_secret=api_secret)
-        
+
+#############################################       END OF MAIN FUNCTION       #############################################
