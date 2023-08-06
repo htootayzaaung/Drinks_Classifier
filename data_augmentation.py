@@ -6,15 +6,20 @@ def rotate_images_in_folder(folder):
         if filename.endswith(".jpg"):
             image_path = os.path.join(folder, filename)
             with Image.open(image_path) as img:
+                # Convert the image to RGB mode (removing the palette)
+                img_rgb = img.convert("RGB")
+
                 # Rotate the image by 45 degrees and save it
-                img_rotated_45 = img.rotate(45)
+                img_rotated_45 = img_rgb.rotate(45)
                 img_rotated_45_path = os.path.join(folder, f"{filename}_rotated_45.jpg")
                 img_rotated_45.save(img_rotated_45_path)
+                print(f"Saved {img_rotated_45_path}")
 
                 # Rotate the image by 120 degrees and save it
-                img_rotated_120 = img.rotate(120)
+                img_rotated_120 = img_rgb.rotate(120)
                 img_rotated_120_path = os.path.join(folder, f"{filename}_rotated_120.jpg")
                 img_rotated_120.save(img_rotated_120_path)
+                print(f"Saved {img_rotated_120_path}")
 
 if __name__ == "__main__":
     brands = [
