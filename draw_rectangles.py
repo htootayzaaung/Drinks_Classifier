@@ -1,70 +1,51 @@
 import os
 import cv2
-import json
 
-def draw_rectangles(image_path, save_path):
-    image = cv2.imread(image_path)
-    clone = image.copy()
-    rectangles = []
+def manual_crop(input_folder, output_folder):
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
 
-    def mouse_callback(event, x, y, flags, param):
-        nonlocal rectangles
-        if event == cv2.EVENT_LBUTTONDOWN:
-            rectangles.append((x, y))
-        elif event == cv2.EVENT_LBUTTONUP:
-            rectangles[-1] = (rectangles[-1][0], y)
+    for root, _, files in os.walk(input_folder):
+        for filename in files:
+            if filename.endswith(('.jpg', '.png', '.jpeg')):  # Add other image formats if needed
+                input_path = os.path.join(root, filename)
+                output_path = os.path.join(output_folder, os.path.relpath(input_path, input_folder))
 
-    cv2.namedWindow('Image')
-    cv2.setMouseCallback('Image', mouse_callback)
+                # Load the image
+                image = cv2.imread(input_path)
 
-    while True:
-        cv2.imshow('Image', clone)
-        key = cv2.waitKey(1)
+                # Calculate a resizing factor to fit within screen dimensions
+                screen_height, screen_width = 1080, 1920  # Adjust these values according to your screen resolution
+                max_display_size = (screen_width, screen_height)
+                h, w = image.shape[:2]
+                resize_factor = min(1.0, max_display_size[0] / w, max_display_size[1] / h)
 
-        if key == ord('r'):
-            # Remove the last drawn rectangle if 'r' is pressed
-            if rectangles:
-                rectangles.pop()
+                # Resize the image while maintaining aspect ratio
+                resized_image = cv2.resize(image, None, fx=resize_factor, fy=resize_factor)
 
-        elif key == ord('c'):
-            # Clear all rectangles if 'c' is pressed
-            rectangles = []
+                # Display the image and let the user select the cropping region
+                clone = resized_image.copy()
+                roi = cv2.selectROI("Select ROI (Press Enter to Confirm, ESC to Exit)", clone, showCrosshair=True, fromCenter=False)
+                
+                # Handle the case where the user presses the ESC key
+                if roi == (0, 0, 0, 0):
+                    cv2.destroyAllWindows()
+                    return
+                
+                cv2.destroyWindow("Select ROI")
 
-        elif key == ord('s'):
-            # Save the rectangles to a JSON file if 's' is pressed
-            with open(save_path, 'w') as f:
-                json.dump(rectangles, f)
-            print(f"Saved annotations to {save_path}")
-            break
+                # Resize the cropping coordinates back to the original image size
+                x, y, w, h = [int(coord / resize_factor) for coord in roi]
 
-        elif key == 27:  # Press 'Esc' to exit without saving
-            break
+                # Crop the image based on the selected region
+                cropped_image = image[y:y+h, x:x+w]
 
-        clone = image.copy()
-        for rect in rectangles:
-            cv2.rectangle(clone, (rect[0], rect[1]), (image.shape[1], rect[1]), (0, 0, 255), -1)
-
-    cv2.destroyAllWindows()
+                # Save the cropped image
+                os.makedirs(os.path.dirname(output_path), exist_ok=True)
+                cv2.imwrite(output_path, cropped_image)
 
 if __name__ == "__main__":
-    brands = [
-        "Heineken beer",
-        "Carlsberg beer",
-        "Tiger beer",
-        "Red Bull energy drink",
-        "Coca Cola",
-        "Pepsi"
-    ]  # Add more brands as needed
+    input_folder = "Images"  # Replace with the path to your input image folder
+    output_folder = "Cropped_Images"  # Replace with the desired output folder
 
-    for brand in brands:
-        brand_folder = f"Images/{brand.lower().replace(' ', '_')}_images"
-        save_folder = f"Annotations/{brand.lower().replace(' ', '_')}_annotations"
-        os.makedirs(save_folder, exist_ok=True)
-
-        for filename in os.listdir(brand_folder):
-            if filename.endswith(".jpg"):
-                image_path = os.path.join(brand_folder, filename)
-                save_path = os.path.join(save_folder, f"{filename.split('.')[0]}.json")
-
-                if not os.path.exists(save_path):
-                    draw_rectangles(image_path, save_path)
+    manual_crop(input_folder, output_folder)
