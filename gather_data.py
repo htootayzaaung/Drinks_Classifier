@@ -13,50 +13,6 @@ def create_brand_folder(brand):
         os.makedirs(brand_folder)
     return brand_folder
 
-#############################################       GOOGLE IMAGES       #############################################
-
-def download_images_from_google(query, brand_folder, num_images=100):
-    search_url = f"https://www.google.com/search?q={query}&tbm=isch"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"}
-    response = requests.get(search_url, headers=headers)
-    soup = BeautifulSoup(response.content, "html.parser")
-
-    image_urls = []
-    for img in soup.find_all("img"):
-        if img.get("src"):
-            image_urls.append(img["src"])
-
-    num_attempts = num_images // len(image_urls) + 1
-    for _ in range(num_attempts):
-        response = requests.get(search_url + f"&start={len(image_urls)}", headers=headers)
-        soup = BeautifulSoup(response.content, "html.parser")
-        for img in soup.find_all("img"):
-            if img.get("src"):
-                image_urls.append(img["src"])
-
-        time.sleep(1)  # Add a delay between requests to avoid overloading the website
-
-    count = 0
-    for i, img_url in enumerate(image_urls):
-        try:
-            if img_url.startswith("http"):
-                img_path = os.path.join(brand_folder, f"{i}.jpg")
-                urllib.request.urlretrieve(img_url, img_path)
-                count += 1
-                print(f"Downloaded {img_path}")
-
-                if count >= num_images:
-                    break
-                time.sleep(1)  # Add a delay between image downloads to avoid overloading the website
-        except Exception as e:
-            print(f"Error downloading image {i}: {e}")
-
-
-#############################################       END OF GOOGLE IMAGES       #############################################
-
-
-
 #############################################       UNSPLASH       #############################################
 
 def download_images_from_unsplash(query, brand_folder, num_images=100, access_key=None):
@@ -136,7 +92,6 @@ if __name__ == "__main__":
         brand_folder = create_brand_folder(brand)
         query = brand  # Use the brand name itself for Red Bull, Coca Cola, and Pepsi
         download_images_from_unsplash(query, brand_folder, num_images=100, access_key=access_key)
-        download_images_from_google(query, brand_folder, num_images=100)
         download_images_from_flickr(query, brand_folder, num_images=100, api_key=api_key, api_secret=api_secret)
 
 #############################################       END OF MAIN FUNCTION       #############################################
