@@ -26,12 +26,12 @@ def manual_crop(input_folder, output_folder):
                 # Display the image and let the user select the cropping region
                 clone = resized_image.copy()
                 roi = cv2.selectROI("Select ROI (Press Enter to Confirm, ESC to Exit)", clone, showCrosshair=True, fromCenter=False)
-                
+
                 # Handle the case where the user presses the ESC key
                 if roi == (0, 0, 0, 0):
                     cv2.destroyAllWindows()
                     return
-                
+
                 cv2.destroyWindow("Select ROI")
 
                 # Resize the cropping coordinates back to the original image size
@@ -40,9 +40,11 @@ def manual_crop(input_folder, output_folder):
                 # Crop the image based on the selected region
                 cropped_image = image[y:y+h, x:x+w]
 
-                # Save the cropped image
-                os.makedirs(os.path.dirname(output_path), exist_ok=True)
-                cv2.imwrite(output_path, cropped_image)
+                # Overwrite the original image with the cropped version
+                cv2.imwrite(input_path, cropped_image)
+
+                # Display the image name in the terminal
+                print(f"Cropped and saved: {input_path}")
 
 if __name__ == "__main__":
     input_folder = "Images"  # Replace with the path to your input image folder
