@@ -1,53 +1,89 @@
 import os
 import cv2
 
-def manual_crop(input_folder, output_folder):
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
+LOG_FILE = "image_log.txt"
+
+def write_log(message):
+    with open(LOG_FILE, 'a') as log:
+        log.write(message + "\n")
+
+# Mouse callback function
+def draw_rectangle(event, x, y, flags, param):
+    global drawing, top_left_pt, bottom_right_pt, display_img, clone
+
+    if event == cv2.EVENT_LBUTTONDOWN:
+        drawing = True
+        top_left_pt = (x, y)
+
+    elif event == cv2.EVENT_LBUTTONUP:
+        drawing = False
+        bottom_right_pt = (x, y)
+        cv2.rectangle(display_img, top_left_pt, bottom_right_pt, (0, 0, 255), 5)  # Increased line thickness to 5
+        cv2.imshow('Draw Rectangle', display_img)
+
+    elif event == cv2.EVENT_MOUSEMOVE:
+        if drawing:
+            img_copy = clone.copy()
+            cv2.rectangle(img_copy, top_left_pt, (x, y), (0, 0, 255), 5)  # Increased line thickness to 5
+            cv2.imshow('Draw Rectangle', img_copy)
+
+if __name__ == '__main__':
+    global drawing, top_left_pt, bottom_right_pt, display_img, clone
+
+    if not os.path.exists(LOG_FILE):
+        with open(LOG_FILE, 'w') as log:
+            pass
+
+    print("Keys: [d] - Delete, [s] - Save, [i] - Ignore, [q] - Quit")
+
+    input_folder = "Images"
 
     for root, _, files in os.walk(input_folder):
         for filename in files:
-            if filename.endswith(('.jpg', '.png', '.jpeg')):  # Add other image formats if needed
+            if filename.endswith(('.jpg', '.png', '.jpeg')):
                 input_path = os.path.join(root, filename)
-                output_path = os.path.join(output_folder, os.path.relpath(input_path, input_folder))
+
+                # Check if image is already processed
+                with open(LOG_FILE, 'r') as log:
+                    if input_path in log.read():
+                        continue
 
                 # Load the image
-                image = cv2.imread(input_path)
+                img = cv2.imread(input_path)
+                clone = img.copy()
+                drawing = False
+                top_left_pt, bottom_right_pt = (-1, -1), (-1, -1)
 
-                # Calculate a resizing factor to fit within screen dimensions
-                screen_height, screen_width = 1080, 1920  # Adjust these values according to your screen resolution
-                max_display_size = (screen_width, screen_height)
-                h, w = image.shape[:2]
-                resize_factor = min(1.0, max_display_size[0] / w, max_display_size[1] / h)
+                display_img = clone.copy()
 
-                # Resize the image while maintaining aspect ratio
-                resized_image = cv2.resize(image, None, fx=resize_factor, fy=resize_factor)
+                cv2.namedWindow('Draw Rectangle')
+                cv2.setMouseCallback('Draw Rectangle', draw_rectangle)
 
-                # Display the image and let the user select the cropping region
-                clone = resized_image.copy()
-                roi = cv2.selectROI("Select ROI (Press Enter to Confirm, ESC to Exit)", clone, showCrosshair=True, fromCenter=False)
+                while True:
+                    cv2.imshow('Draw Rectangle', display_img)
+                    key = cv2.waitKey(1) & 0xFF
 
-                # Handle the case where the user presses the ESC key
-                if roi == (0, 0, 0, 0):
-                    cv2.destroyAllWindows()
-                    return
+                    if key == ord("d"):
+                        os.remove(input_path)
+                        write_log(f"Deleted: {input_path}")
+                        print(f"Deleted: {input_path}")
+                        break
 
-                cv2.destroyWindow("Select ROI")
+                    elif key == ord("s"):
+                        if top_left_pt != (-1, -1) and bottom_right_pt != (-1, -1):
+                            roi = clone[top_left_pt[1]:bottom_right_pt[1], top_left_pt[0]:bottom_right_pt[0]]
+                            cv2.imwrite(input_path, roi)
+                            write_log(f"Cropped and saved: {input_path}")
+                            print(f"Cropped and saved: {input_path}")
+                        break
 
-                # Resize the cropping coordinates back to the original image size
-                x, y, w, h = [int(coord / resize_factor) for coord in roi]
+                    elif key == ord("i"):
+                        write_log(f"Ignored: {input_path}")
+                        print(f"Ignored: {input_path}")
+                        break
 
-                # Crop the image based on the selected region
-                cropped_image = image[y:y+h, x:x+w]
+                    elif key == ord("q"):
+                        cv2.destroyAllWindows()
+                        exit(0)
 
-                # Overwrite the original image with the cropped version
-                cv2.imwrite(input_path, cropped_image)
-
-                # Display the image name in the terminal
-                print(f"Cropped and saved: {input_path}")
-
-if __name__ == "__main__":
-    input_folder = "Images"  # Replace with the path to your input image folder
-    output_folder = "Cropped_Images"  # Replace with the desired output folder
-
-    manual_crop(input_folder, output_folder)
+                cv2.destroyWindow('Draw Rectangle')
