@@ -7,29 +7,50 @@ def write_log(message):
     with open(LOG_FILE, 'a') as log:
         log.write(message + "\n")
 
+def resize_image_to_fit_screen(image, screen_width, screen_height):
+    h, w = image.shape[:2]
+    aspect_ratio = w / h
+    if w > screen_width:
+        w = screen_width
+        h = int(w / aspect_ratio)
+    if h > screen_height:
+        h = screen_height
+        w = int(h * aspect_ratio)
+    return cv2.resize(image, (w, h))
+
 def draw_rectangle(event, x, y, flags, param):
-    global drawing, top_left_pt, bottom_right_pt, img, clone
+    global drawing, top_left_pt, bottom_right_pt, img, clone, rect_drawn
 
     if event == cv2.EVENT_LBUTTONDOWN:
+        if rect_drawn:
+            img = clone.copy()
+            cv2.imshow('Draw Rectangle', img)
+            rect_drawn = False
         drawing = True
         top_left_pt = (x, y)
 
     elif event == cv2.EVENT_LBUTTONUP:
         drawing = False
         bottom_right_pt = (x, y)
-        cv2.rectangle(clone, top_left_pt, bottom_right_pt, (0, 0, 255), 5)
-        cv2.imshow('Draw Rectangle', clone)
+        cv2.rectangle(img, top_left_pt, bottom_right_pt, (0, 0, 255), 4)
+        cv2.imshow('Draw Rectangle', img)
+        rect_drawn = True
 
-    elif event == cv2.EVENT_MOUSEMOVE:
-        if drawing:
-            temp_img = clone.copy()
-            cv2.rectangle(temp_img, top_left_pt, (x, y), (0, 0, 255), 5)
-            cv2.imshow('Draw Rectangle', temp_img)
+    elif event == cv2.EVENT_MOUSEMOVE and drawing:
+        tmp_img = clone.copy()
+        cv2.rectangle(tmp_img, top_left_pt, (x, y), (0, 0, 255), 4)
+        cv2.imshow('Draw Rectangle', tmp_img)
 
 if __name__ == '__main__':
-    global drawing, top_left_pt, bottom_right_pt, img, clone
-
     input_folder = "Images"
+
+    # Globals
+    drawing = False
+    top_left_pt, bottom_right_pt = (-1, -1), (-1, -1)
+    rect_drawn = False
+
+    screen_width = 1920  # modify these values to your screen dimensions
+    screen_height = 1080
 
     if not os.path.exists(LOG_FILE):
         with open(LOG_FILE, 'w') as log:
@@ -37,41 +58,25 @@ if __name__ == '__main__':
 
     print("Keys: [d] - Delete, [s] - Save, [i] - Ignore, [q] - Quit")
 
-    screen_width, screen_height = 1920, 1080
-
     for root, _, files in os.walk(input_folder):
         for filename in files:
             if filename.endswith(('.jpg', '.png', '.jpeg')):
                 input_path = os.path.join(root, filename)
 
+                # Check if image is already processed
                 with open(LOG_FILE, 'r') as log:
                     if input_path in log.read():
                         continue
 
                 img = cv2.imread(input_path)
-                h, w = img.shape[:2]
+                img = resize_image_to_fit_screen(img, screen_width, screen_height)
+                clone = img.copy()
 
-                aspect_ratio = w / h
-                new_width = int(screen_height * aspect_ratio)
-                new_height = screen_height
-
-                if new_width > screen_width:
-                    new_width = screen_width
-                    new_height = int(screen_width / aspect_ratio)
-
-                scale_x = w / new_width
-                scale_y = h / new_height
-
-                clone = cv2.resize(img, (new_width, new_height))
-                drawing = False
-                top_left_pt, bottom_right_pt = (-1, -1), (-1, -1)
-
-                cv2.namedWindow('Draw Rectangle', cv2.WINDOW_NORMAL)
-                cv2.resizeWindow('Draw Rectangle', new_width, new_height)
+                cv2.namedWindow('Draw Rectangle')
                 cv2.setMouseCallback('Draw Rectangle', draw_rectangle)
 
                 while True:
-                    cv2.imshow('Draw Rectangle', clone)
+                    cv2.imshow('Draw Rectangle', img)
                     key = cv2.waitKey(1) & 0xFF
 
                     if key == ord("d"):
@@ -82,10 +87,7 @@ if __name__ == '__main__':
 
                     elif key == ord("s"):
                         if top_left_pt != (-1, -1) and bottom_right_pt != (-1, -1):
-                            x1, y1 = int(top_left_pt[0] * scale_x), int(top_left_pt[1] * scale_y)
-                            x2, y2 = int(bottom_right_pt[0] * scale_x), int(bottom_right_pt[1] * scale_y)
-
-                            cropped_img = img[y1:y2, x1:x2]
+                            cropped_img = clone[top_left_pt[1]:bottom_right_pt[1], top_left_pt[0]:bottom_right_pt[0]]
                             cv2.imwrite(input_path, cropped_img)
                             write_log(f"Cropped and saved: {input_path}")
                             print(f"Cropped and saved: {input_path}")
@@ -101,4 +103,3 @@ if __name__ == '__main__':
                         exit(0)
 
                 cv2.destroyWindow('Draw Rectangle')
-                continue
