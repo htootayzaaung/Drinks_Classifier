@@ -41,39 +41,6 @@ def draw_rectangle(event, x, y, flags, param):
         cv2.rectangle(tmp_img, top_left_pt, (x, y), (0, 0, 255), 4)
         cv2.imshow('Draw Rectangle', tmp_img)
 
-def move_image_to_subfolder(input_path, subfolder_name, image_to_save=None):
-    """
-    Moves the image to a specified subfolder.
-    If the subfolder doesn't exist, it creates one.
-    If an image_to_save is provided, saves that image to the destination.
-    """
-    # Get the destination path
-    destination_folder = os.path.join(os.path.dirname(input_path), subfolder_name)
-    
-    # Create the subfolder if it doesn't exist
-    if not os.path.exists(destination_folder):
-        os.makedirs(destination_folder)
-        
-    # Destination path
-    base_name = os.path.basename(input_path)
-    destination_path = os.path.join(destination_folder, base_name)
-
-    counter = 1
-    while os.path.exists(destination_path):  # Check if file already exists
-        name, ext = os.path.splitext(base_name)
-        destination_path = os.path.join(destination_folder, f"{name}_{counter}{ext}")
-        counter += 1
-    
-    # If a specific image is provided, save it. Otherwise, just move the original file.
-    if image_to_save is not None:
-        cv2.imwrite(destination_path, image_to_save)
-        os.remove(input_path)  # remove the original file since we're "moving"
-    else:
-        os.rename(input_path, destination_path)
-    
-    return destination_path
-
-
 if __name__ == '__main__':
     input_folder = "Images"
 
@@ -89,7 +56,7 @@ if __name__ == '__main__':
         with open(LOG_FILE, 'w') as log:
             pass
 
-    print("Keys: [d] - Delete, [s] - Save, [i] - Ignore, [q] - Quit, [b] - Move to \"bottle\" subdirectory, [c] - Move to \"can\" subdirectory")
+    print("Keys: [d] - Delete, [s] - Save, [i] - Ignore, [q] - Quit")
 
     for root, _, files in os.walk(input_folder):
         for filename in files:
@@ -116,30 +83,6 @@ if __name__ == '__main__':
                         os.remove(input_path)
                         write_log(f"Deleted: {input_path}")
                         print(f"Deleted: {input_path}")
-                        break
-
-                    elif key == ord("c"):
-                        if top_left_pt != (-1, -1) and bottom_right_pt != (-1, -1):
-                            cropped_img = clone[top_left_pt[1]:bottom_right_pt[1], top_left_pt[0]:bottom_right_pt[0]]
-                            destination_path = move_image_to_subfolder(input_path, "can", cropped_img)
-                            write_log(f"Cropped and moved to 'can' folder: {destination_path}")
-                            print(f"Cropped and moved to 'can' folder: {destination_path}")
-                        else:
-                            destination_path = move_image_to_subfolder(input_path, "can")
-                            write_log(f"Moved to 'can' folder: {destination_path}")
-                            print(f"Moved to 'can' folder: {destination_path}")
-                        break
-
-                    elif key == ord("b"):
-                        if top_left_pt != (-1, -1) and bottom_right_pt != (-1, -1):
-                            cropped_img = clone[top_left_pt[1]:bottom_right_pt[1], top_left_pt[0]:bottom_right_pt[0]]
-                            destination_path = move_image_to_subfolder(input_path, "bottle", cropped_img)
-                            write_log(f"Cropped and moved to 'bottle' folder: {destination_path}")
-                            print(f"Cropped and moved to 'bottle' folder: {destination_path}")
-                        else:
-                            destination_path = move_image_to_subfolder(input_path, "bottle")
-                            write_log(f"Moved to 'bottle' folder: {destination_path}")
-                            print(f"Moved to 'bottle' folder: {destination_path}")
                         break
 
                     elif key == ord("s"):

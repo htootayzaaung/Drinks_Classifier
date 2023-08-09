@@ -77,9 +77,6 @@ def download_images_from_flickr(query, brand_folder, num_images=100, api_key=Non
 if __name__ == "__main__":
     brands = [
         "Heineken beer",
-        "Carlsberg beer",
-        "Tiger beer",
-        "Red Bull energy drink",
         "Coca Cola",
         "Pepsi"
     ]  # Add more brands as needed

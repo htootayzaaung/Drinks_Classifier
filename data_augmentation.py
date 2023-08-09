@@ -1,36 +1,40 @@
 import os
 from PIL import Image
 
-def rotate_images_in_folder(folder):
+def rotate_mirror_and_save(img_rgb, angle, filename, folder):
+    img_rotated = img_rgb.rotate(angle)
+    img_rotated_path = os.path.join(folder, f"{filename}_rotated_{angle}.jpg")
+    img_rotated.save(img_rotated_path)
+    print(f"Saved {img_rotated_path}")
+
+def augment_images_in_folder(folder):
     for filename in os.listdir(folder):
         if filename.endswith(".jpg"):
             image_path = os.path.join(folder, filename)
+            
             with Image.open(image_path) as img:
                 # Convert the image to RGB mode (removing the palette)
                 img_rgb = img.convert("RGB")
 
-                # Rotate the image by 45 degrees and save it
-                img_rotated_45 = img_rgb.rotate(45)
-                img_rotated_45_path = os.path.join(folder, f"{filename}_rotated_45.jpg")
-                img_rotated_45.save(img_rotated_45_path)
-                print(f"Saved {img_rotated_45_path}")
+                # Mirror the image (horizontal flip) and save it
+                img_mirrored = img_rgb.transpose(Image.FLIP_LEFT_RIGHT)
+                img_mirrored_path = os.path.join(folder, f"{filename}_mirrored.jpg")
+                img_mirrored.save(img_mirrored_path)
+                print(f"Saved {img_mirrored_path}")
 
-                # Rotate the image by 120 degrees and save it
-                img_rotated_120 = img_rgb.rotate(120)
-                img_rotated_120_path = os.path.join(folder, f"{filename}_rotated_120.jpg")
-                img_rotated_120.save(img_rotated_120_path)
-                print(f"Saved {img_rotated_120_path}")
+                # Rotate the image by 5 degrees (counter-clockwise) and save it
+                rotate_mirror_and_save(img_rgb, -5, filename, folder)
+
+                # Rotate the image by 5 degrees (clockwise) and save it
+                rotate_mirror_and_save(img_rgb, 5, filename, folder)
 
 if __name__ == "__main__":
     brands = [
         "Heineken beer",
-        "Carlsberg beer",
-        "Tiger beer",
-        "Red Bull energy drink",
         "Coca Cola",
         "Pepsi"
-    ]  # Add more brands as needed
+    ]
 
     for brand in brands:
         brand_folder = f"Images/{brand.lower().replace(' ', '_')}_images"
-        rotate_images_in_folder(brand_folder)
+        augment_images_in_folder(brand_folder)
