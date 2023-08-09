@@ -41,6 +41,24 @@ def draw_rectangle(event, x, y, flags, param):
         cv2.rectangle(tmp_img, top_left_pt, (x, y), (0, 0, 255), 4)
         cv2.imshow('Draw Rectangle', tmp_img)
 
+def move_image_to_subfolder(input_path, subfolder_name):
+    """
+    Moves the image to a specified subfolder.
+    If the subfolder doesn't exist, it creates one.
+    """
+    # Get the destination path
+    destination_folder = os.path.join(os.path.dirname(input_path), subfolder_name)
+    
+    # Create the subfolder if it doesn't exist
+    if not os.path.exists(destination_folder):
+        os.makedirs(destination_folder)
+        
+    # Move the image
+    destination_path = os.path.join(destination_folder, os.path.basename(input_path))
+    os.rename(input_path, destination_path)
+    return destination_path
+
+
 if __name__ == '__main__':
     input_folder = "Images"
 
@@ -56,7 +74,7 @@ if __name__ == '__main__':
         with open(LOG_FILE, 'w') as log:
             pass
 
-    print("Keys: [d] - Delete, [s] - Save, [i] - Ignore, [q] - Quit")
+    print("Keys: [d] - Delete, [s] - Save, [i] - Ignore, [q] - Quit, [b] - Move to \"bottle\" subdirectory, [c] - Move to \"can\" subdirectory")
 
     for root, _, files in os.walk(input_folder):
         for filename in files:
@@ -83,6 +101,18 @@ if __name__ == '__main__':
                         os.remove(input_path)
                         write_log(f"Deleted: {input_path}")
                         print(f"Deleted: {input_path}")
+                        break
+
+                    elif key == ord("c"):
+                        destination_path = move_image_to_subfolder(input_path, "can")
+                        write_log(f"Moved to 'can' folder: {destination_path}")
+                        print(f"Moved to 'can' folder: {destination_path}")
+                        break
+
+                    elif key == ord("b"):
+                        destination_path = move_image_to_subfolder(input_path, "bottle")
+                        write_log(f"Moved to 'bottle' folder: {destination_path}")
+                        print(f"Moved to 'bottle' folder: {destination_path}")
                         break
 
                     elif key == ord("s"):
