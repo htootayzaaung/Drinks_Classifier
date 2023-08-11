@@ -58,12 +58,15 @@ if __name__ == '__main__':
 
     print("Keys: [d] - Delete, [s] - Save, [i] - Ignore, [q] - Quit")
 
+    # Allowed image file extensions
+    allowed_extensions = ('.webp', '.jpg', '.png', '.jpeg')  # Added .webp to the tuple
+
     for root, _, files in os.walk(input_folder):
         for filename in files:
-            if filename.endswith(('.jpg', '.png', '.jpeg')):
+            if filename.endswith(allowed_extensions):  # Modified this line to check from the tuple
                 input_path = os.path.join(root, filename)
 
-                # Check if image is already processed
+                # Check if the image is already processed
                 with open(LOG_FILE, 'r') as log:
                     if input_path in log.read():
                         continue
