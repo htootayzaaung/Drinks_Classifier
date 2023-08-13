@@ -1,4 +1,4 @@
-# Drinks Classifier
+# Drinks Classifier (Computer Vision Project)
 
 **Contributors**: Htoo Tayza Aung, Min Bhone Thit
 
