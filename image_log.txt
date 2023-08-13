@@ -1,917 +1,606 @@
-
-Deleted: Images/coca_cola_images/129.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_5.jpg
-Deleted: Images/coca_cola_images/190.jpg
-Deleted: Images/coca_cola_images/flickr_33.jpg
-Deleted: Images/coca_cola_images/150.jpg
-Deleted: Images/coca_cola_images/flickr_72.jpg
-Deleted: Images/coca_cola_images/73.jpg
-Deleted: Images/coca_cola_images/flickr_38.jpg
-Deleted: Images/coca_cola_images/32.jpg
-Deleted: Images/coca_cola_images/53.jpg
-Deleted: Images/coca_cola_images/162.jpg
-Deleted: Images/coca_cola_images/flickr_94.jpg
-Deleted: Images/coca_cola_images/115.jpg
-Cropped and saved: Images/coca_cola_images/177.jpg
-Deleted: Images/coca_cola_images/37.jpg
-Deleted: Images/coca_cola_images/flickr_21.jpg
-Deleted: Images/coca_cola_images/49.jpg
-Deleted: Images/coca_cola_images/170.jpg
-Deleted: Images/coca_cola_images/flickr_95.jpg
-Deleted: Images/coca_cola_images/flickr_77.jpg
-Deleted: Images/coca_cola_images/98.jpg
-Deleted: Images/coca_cola_images/flickr_10.jpg
-Deleted: Images/coca_cola_images/83.jpg
-Deleted: Images/coca_cola_images/76.jpg
-Deleted: Images/coca_cola_images/flickr_64.jpg
-Deleted: Images/coca_cola_images/187.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_23.jpg
-Deleted: Images/coca_cola_images/125.jpg
-Deleted: Images/coca_cola_images/60.jpg
-Deleted: Images/coca_cola_images/195.jpg
-Deleted: Images/coca_cola_images/unsplash_0.jpg
-Deleted: Images/coca_cola_images/43.jpg
-Deleted: Images/coca_cola_images/flickr_83.jpg
-Deleted: Images/coca_cola_images/165.jpg
-Deleted: Images/coca_cola_images/133.jpg
-Deleted: Images/coca_cola_images/197.jpg
-Deleted: Images/coca_cola_images/flickr_74.jpg
-Deleted: Images/coca_cola_images/142.jpg
-Deleted: Images/coca_cola_images/34.jpg
-Cropped and saved: Images/coca_cola_images/89.jpg
-Deleted: Images/coca_cola_images/45.jpg
-Deleted: Images/coca_cola_images/flickr_3.jpg
-Deleted: Images/coca_cola_images/102.jpg
-Deleted: Images/coca_cola_images/flickr_68.jpg
-Deleted: Images/coca_cola_images/137.jpg
-Cropped and saved: Images/coca_cola_images/122.jpg
-Deleted: Images/coca_cola_images/47.jpg
-Cropped and saved: Images/coca_cola_images/48.jpg
-Deleted: Images/coca_cola_images/flickr_84.jpg
-Cropped and saved: Images/coca_cola_images/39.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_1.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_10.jpg
-Deleted: Images/coca_cola_images/169.jpg
-Deleted: Images/coca_cola_images/97.jpg
-Deleted: Images/coca_cola_images/flickr_53.jpg
-Deleted: Images/coca_cola_images/flickr_15.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (211).jpg
+Ignored: Images/coca_cola_images/unsplash_5.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (46).jpg
+Cropped and saved: Images/coca_cola_images/images-43.jpg
+Deleted: Images/coca_cola_images/coca-cola (209).jpg
+Ignored: Images/coca_cola_images/177.jpg
+Cropped and saved: Images/coca_cola_images/images-7.jpg
+Deleted: Images/coca_cola_images/image-5.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (124).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (72).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (42).jpg
+Ignored: Images/coca_cola_images/coca-cola (242).jpg
+Deleted: Images/coca_cola_images/images-25.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (127).jpg
+Deleted: Images/coca_cola_images/coca-cola (12).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (148).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (251).jpg
+Deleted: Images/coca_cola_images/images-37.jpg
+Cropped and saved: Images/coca_cola_images/images-26.jpg
+Ignored: Images/coca_cola_images/89.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (233).jpg
+Ignored: Images/coca_cola_images/coca-cola (203).jpg
+Ignored: Images/coca_cola_images/122.jpg
+Deleted: Images/coca_cola_images/coca-cola (213).jpg
+Ignored: Images/coca_cola_images/48.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (304).jpg
+Deleted: Images/coca_cola_images/39.jpg
+Ignored: Images/coca_cola_images/unsplash_1.jpg
+Ignored: Images/coca_cola_images/unsplash_10.jpg
+Cropped and saved: Images/coca_cola_images/images-51.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (291).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (43).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (113).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (204).jpg
+Deleted: Images/coca_cola_images/image-25.jpg
 Cropped and saved: Images/coca_cola_images/unsplash_13.jpg
-Deleted: Images/coca_cola_images/136.jpg
-Deleted: Images/coca_cola_images/185.jpg
-Deleted: Images/coca_cola_images/flickr_40.jpg
-Deleted: Images/coca_cola_images/92.jpg
-Deleted: Images/coca_cola_images/91.jpg
-Deleted: Images/coca_cola_images/153.jpg
-Deleted: Images/coca_cola_images/flickr_63.jpg
-Deleted: Images/coca_cola_images/31.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_26.jpg
-Deleted: Images/coca_cola_images/flickr_6.jpg
-Deleted: Images/coca_cola_images/flickr_13.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_14.jpg
-Deleted: Images/coca_cola_images/141.jpg
-Deleted: Images/coca_cola_images/166.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_25.jpg
-Ignored: Images/coca_cola_images/105.jpg
-Deleted: Images/coca_cola_images/flickr_35.jpg
-Deleted: Images/coca_cola_images/flickr_52.jpg
-Deleted: Images/coca_cola_images/flickr_59.jpg
-Deleted: Images/coca_cola_images/193.jpg
-Deleted: Images/coca_cola_images/flickr_93.jpg
-Deleted: Images/coca_cola_images/132.jpg
-Deleted: Images/coca_cola_images/flickr_92.jpg
-Deleted: Images/coca_cola_images/flickr_8.jpg
-Deleted: Images/coca_cola_images/85.jpg
-Deleted: Images/coca_cola_images/flickr_71.jpg
-Deleted: Images/coca_cola_images/130.jpg
-Deleted: Images/coca_cola_images/flickr_28.jpg
-Cropped and saved: Images/coca_cola_images/196.jpg
-Cropped and saved: Images/coca_cola_images/74.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (92).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (33).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (186).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (266).jpg
+Cropped and saved: Images/coca_cola_images/images-14.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (8).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (235).jpg
+Cropped and saved: Images/coca_cola_images/images-66.jpg
+Deleted: Images/coca_cola_images/coca-cola (310).jpg
+Ignored: Images/coca_cola_images/unsplash_26.jpg
+Ignored: Images/coca_cola_images/coca-cola (207).jpg
+Ignored: Images/coca_cola_images/coca-cola (157).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (96).jpg
+Ignored: Images/coca_cola_images/unsplash_14.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (155).jpg
+Ignored: Images/coca_cola_images/unsplash_25.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (128).jpg
+Cropped and saved: Images/coca_cola_images/105.jpg
+Cropped and saved: Images/coca_cola_images/image-23.jpg
+Ignored: Images/coca_cola_images/image-12.jpg
+Cropped and saved: Images/coca_cola_images/image-31.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (195).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (219).jpg
+Ignored: Images/coca_cola_images/coca-cola (306).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (66).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (38).jpg
+Deleted: Images/coca_cola_images/196.jpg
+Ignored: Images/coca_cola_images/coca-cola (129).jpg
+Ignored: Images/coca_cola_images/74.jpg
 Ignored: Images/coca_cola_images/flickr_69.jpg
-Deleted: Images/coca_cola_images/flickr_96.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_28.jpg
-Ignored: Images/coca_cola_images/114.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_20.jpg
-Deleted: Images/coca_cola_images/181.jpg
-Deleted: Images/coca_cola_images/flickr_29.jpg
-Deleted: Images/coca_cola_images/64.jpg
-Deleted: Images/coca_cola_images/flickr_30.jpg
-Deleted: Images/coca_cola_images/44.jpg
+Ignored: Images/coca_cola_images/unsplash_28.jpg
+Ignored: Images/coca_cola_images/coca-cola (268).jpg
+Cropped and saved: Images/coca_cola_images/114.jpg
+Ignored: Images/coca_cola_images/unsplash_20.jpg
+Ignored: Images/coca_cola_images/coca-cola (226).jpg
+Ignored: Images/coca_cola_images/images-44.jpg
+Ignored: Images/coca_cola_images/coca-cola (48).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (228).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (40).jpg
+Cropped and saved: Images/coca_cola_images/images.jpg
+Cropped and saved: Images/coca_cola_images/images-8.jpg
 Cropped and saved: Images/coca_cola_images/59.jpg
-Deleted: Images/coca_cola_images/flickr_43.jpg
 Cropped and saved: Images/coca_cola_images/191.jpg
-Cropped and saved: Images/coca_cola_images/146.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_11.jpg
-Deleted: Images/coca_cola_images/flickr_47.jpg
-Cropped and saved: Images/coca_cola_images/127.jpg
-Deleted: Images/coca_cola_images/79.jpg
-Cropped and saved: Images/coca_cola_images/175.jpg
-Cropped and saved: Images/coca_cola_images/134.jpg
-Deleted: Images/coca_cola_images/100.jpg
-Deleted: Images/coca_cola_images/flickr_87.jpg
-Deleted: Images/coca_cola_images/123.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_16.jpg
-Deleted: Images/coca_cola_images/189.jpg
-Deleted: Images/coca_cola_images/flickr_5.jpg
-Deleted: Images/coca_cola_images/flickr_0.jpg
-Cropped and saved: Images/coca_cola_images/121.jpg
-Deleted: Images/coca_cola_images/140.jpg
-Cropped and saved: Images/coca_cola_images/67.jpg
-Deleted: Images/coca_cola_images/flickr_82.jpg
-Cropped and saved: Images/coca_cola_images/119.jpg
-Deleted: Images/coca_cola_images/101.jpg
-Deleted: Images/coca_cola_images/flickr_9.jpg
-Deleted: Images/coca_cola_images/198.jpg
-Deleted: Images/coca_cola_images/flickr_58.jpg
-Deleted: Images/coca_cola_images/flickr_2.jpg
-Deleted: Images/coca_cola_images/78.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_7.jpg
-Deleted: Images/coca_cola_images/flickr_99.jpg
-Deleted: Images/coca_cola_images/flickr_27.jpg
-Deleted: Images/coca_cola_images/192.jpg
-Cropped and saved: Images/coca_cola_images/57.jpg
-Deleted: Images/coca_cola_images/172.jpg
-Cropped and saved: Images/coca_cola_images/126.jpg
-Deleted: Images/coca_cola_images/176.jpg
-Deleted: Images/coca_cola_images/flickr_22.jpg
-Cropped and saved: Images/coca_cola_images/159.jpg
-Deleted: Images/coca_cola_images/flickr_80.jpg
-Deleted: Images/coca_cola_images/flickr_11.jpg
-Cropped and saved: Images/coca_cola_images/flickr_12.jpg
-Deleted: Images/coca_cola_images/111.jpg
-Cropped and saved: Images/coca_cola_images/flickr_7.jpg
-Deleted: Images/coca_cola_images/flickr_88.jpg
-Deleted: Images/coca_cola_images/flickr_16.jpg
-Deleted: Images/coca_cola_images/flickr_23.jpg
-Deleted: Images/coca_cola_images/178.jpg
-Deleted: Images/coca_cola_images/118.jpg
-Deleted: Images/coca_cola_images/135.jpg
-Deleted: Images/coca_cola_images/41.jpg
+Ignored: Images/coca_cola_images/146.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (97).jpg
+Ignored: Images/coca_cola_images/unsplash_11.jpg
+Deleted: Images/coca_cola_images/coca-cola (302).jpg
+Ignored: Images/coca_cola_images/127.jpg
+Deleted: Images/coca_cola_images/images-54.jpg
+Ignored: Images/coca_cola_images/coca-cola (100).jpg
+Ignored: Images/coca_cola_images/175.jpg
+Ignored: Images/coca_cola_images/134.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (152).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (281).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (123).jpg
+Ignored: Images/coca_cola_images/coca-cola (264).jpg
+Ignored: Images/coca_cola_images/coca-cola (221).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (106).jpg
+Cropped and saved: Images/coca_cola_images/images-52.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (225).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (231).jpg
+Ignored: Images/coca_cola_images/coca-cola (136).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (182).jpg
+Ignored: Images/coca_cola_images/unsplash_16.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (145).jpg
+Deleted: Images/coca_cola_images/images-55.jpg
+Ignored: Images/coca_cola_images/images-63.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (81).jpg
+Ignored: Images/coca_cola_images/121.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (240).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (277).jpg
+Ignored: Images/coca_cola_images/67.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (229).jpg
+Ignored: Images/coca_cola_images/coca-cola (70).jpg
+Ignored: Images/coca_cola_images/119.jpg
+Ignored: Images/coca_cola_images/coca-cola (142).jpg
+Cropped and saved: Images/coca_cola_images/image-30.jpg
+Ignored: Images/coca_cola_images/coca-cola (117).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (28).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (116).jpg
+Ignored: Images/coca_cola_images/unsplash_7.jpg
+Ignored: Images/coca_cola_images/image-18.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (247).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (80).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (17).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (249).jpg
+Ignored: Images/coca_cola_images/coca-cola (293).jpg
+Ignored: Images/coca_cola_images/57.jpg
+Cropped and saved: Images/coca_cola_images/images-67.jpg
+Ignored: Images/coca_cola_images/126.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (1).jpg
+Ignored: Images/coca_cola_images/coca-cola (51).jpg
+Ignored: Images/coca_cola_images/159.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (119).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (141).jpg
+Ignored: Images/coca_cola_images/flickr_12.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (137).jpg
+Ignored: Images/coca_cola_images/flickr_7.jpg
+Cropped and saved: Images/coca_cola_images/images-4.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (263).jpg
 Cropped and saved: Images/coca_cola_images/77.jpg
-Deleted: Images/coca_cola_images/flickr_26.jpg
-Cropped and saved: Images/coca_cola_images/158.jpg
-Cropped and saved: Images/coca_cola_images/93.jpg
-Deleted: Images/coca_cola_images/flickr_57.jpg
-Cropped and saved: Images/coca_cola_images/104.jpg
-Cropped and saved: Images/coca_cola_images/155.jpg
-Deleted: Images/coca_cola_images/164.jpg
-Deleted: Images/coca_cola_images/flickr_32.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_27.jpg
-Deleted: Images/coca_cola_images/unsplash_12.jpg
-Deleted: Images/coca_cola_images/147.jpg
-Deleted: Images/coca_cola_images/flickr_66.jpg
-Cropped and saved: Images/coca_cola_images/55.jpg
-Deleted: Images/coca_cola_images/84.jpg
-Ignored: Images/coca_cola_images/168.jpg
-Ignored: Images/coca_cola_images/194.jpg
-Ignored: Images/coca_cola_images/188.jpg
-Ignored: Images/coca_cola_images/75.jpg
-Deleted: Images/coca_cola_images/unsplash_17.jpg
-Deleted: Images/coca_cola_images/108.jpg
-Deleted: Images/coca_cola_images/flickr_1.jpg
-Ignored: Images/coca_cola_images/33.jpg
-Deleted: Images/coca_cola_images/flickr_41.jpg
+Ignored: Images/coca_cola_images/158.jpg
+Ignored: Images/coca_cola_images/93.jpg
+Cropped and saved: Images/coca_cola_images/image-21.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (25).jpg
+Ignored: Images/coca_cola_images/coca-cola (32).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (14).jpg
+Cropped and saved: Images/coca_cola_images/image-26.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (108).jpg
+Ignored: Images/coca_cola_images/coca-cola (110).jpg
+Ignored: Images/coca_cola_images/coca-cola (16).jpg
+Ignored: Images/coca_cola_images/104.jpg
+Ignored: Images/coca_cola_images/155.jpg
+Cropped and saved: Images/coca_cola_images/images-21.jpg
+Ignored: Images/coca_cola_images/unsplash_27.jpg
+Cropped and saved: Images/coca_cola_images/image-19.jpg
+Ignored: Images/coca_cola_images/55.jpg
+Ignored: Images/coca_cola_images/coca-cola (47).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (254).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (98).jpg
+Cropped and saved: Images/coca_cola_images/168.jpg
+Ignored: Images/coca_cola_images/coca-cola (95).jpg
+Cropped and saved: Images/coca_cola_images/194.jpg
+Cropped and saved: Images/coca_cola_images/188.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (55).jpg
+Ignored: Images/coca_cola_images/coca-cola (77).jpg
+Cropped and saved: Images/coca_cola_images/75.jpg
+Ignored: Images/coca_cola_images/coca-cola (90).jpg
+Cropped and saved: Images/coca_cola_images/image-20.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (2).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (205).jpg
+Cropped and saved: Images/coca_cola_images/33.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (305).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (68).jpg
 Cropped and saved: Images/coca_cola_images/61.jpg
-Ignored: Images/coca_cola_images/120.jpg
-Ignored: Images/coca_cola_images/163.jpg
-Ignored: Images/coca_cola_images/70.jpg
-Deleted: Images/coca_cola_images/183.jpg
-Deleted: Images/coca_cola_images/flickr_4.jpg
-Deleted: Images/coca_cola_images/flickr_75.jpg
-Deleted: Images/coca_cola_images/52.jpg
+Cropped and saved: Images/coca_cola_images/120.jpg
+Ignored: Images/coca_cola_images/coca-cola (168).jpg
+Cropped and saved: Images/coca_cola_images/163.jpg
+Ignored: Images/coca_cola_images/coca-cola (94).jpg
+Ignored: Images/coca_cola_images/coca-cola (153).jpg
+Cropped and saved: Images/coca_cola_images/70.jpg
+Ignored: Images/coca_cola_images/coca-cola (274).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (301).jpg
 Cropped and saved: Images/coca_cola_images/unsplash_18.jpg
-Cropped and saved: Images/coca_cola_images/144.jpg
-Deleted: Images/coca_cola_images/149.jpg
-Deleted: Images/coca_cola_images/58.jpg
-Deleted: Images/coca_cola_images/51.jpg
-Ignored: Images/coca_cola_images/38.jpg
-Ignored: Images/coca_cola_images/128.jpg
-Ignored: Images/coca_cola_images/124.jpg
-Deleted: Images/coca_cola_images/flickr_54.jpg
-Deleted: Images/coca_cola_images/152.jpg
-Deleted: Images/coca_cola_images/flickr_85.jpg
-Deleted: Images/coca_cola_images/99.jpg
+Ignored: Images/coca_cola_images/144.jpg
+Cropped and saved: Images/coca_cola_images/image-33.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (36).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (156).jpg
+Cropped and saved: Images/coca_cola_images/38.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (258).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (76).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (160).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (164).jpg
+Cropped and saved: Images/coca_cola_images/128.jpg
+Cropped and saved: Images/coca_cola_images/124.jpg
+Ignored: Images/coca_cola_images/coca-cola (297).jpg
 Ignored: Images/coca_cola_images/35.jpg
-Ignored: Images/coca_cola_images/82.jpg
-Deleted: Images/coca_cola_images/flickr_50.jpg
-Deleted: Images/coca_cola_images/flickr_62.jpg
-Ignored: Images/coca_cola_images/90.jpg
-Deleted: Images/coca_cola_images/flickr_51.jpg
-Deleted: Images/coca_cola_images/68.jpg
-Deleted: Images/coca_cola_images/66.jpg
-Deleted: Images/coca_cola_images/flickr_20.jpg
-Deleted: Images/coca_cola_images/flickr_61.jpg
-Deleted: Images/coca_cola_images/56.jpg
-Deleted: Images/coca_cola_images/flickr_34.jpg
-Ignored: Images/coca_cola_images/42.jpg
+Cropped and saved: Images/coca_cola_images/82.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (54).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (149).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (184).jpg
+Cropped and saved: Images/coca_cola_images/90.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (61).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (138).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (53).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (158).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (115).jpg
+Cropped and saved: Images/coca_cola_images/42.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (122).jpg
 Ignored: Images/coca_cola_images/69.jpg
 Cropped and saved: Images/coca_cola_images/unsplash_6.jpg
-Ignored: Images/coca_cola_images/71.jpg
-Deleted: Images/coca_cola_images/flickr_55.jpg
-Cropped and saved: Images/coca_cola_images/flickr_46.jpg
-Ignored: Images/coca_cola_images/148.jpg
-Ignored: Images/coca_cola_images/157.jpg
-Cropped and saved: Images/coca_cola_images/88.jpg
-Deleted: Images/coca_cola_images/flickr_60.jpg
-Ignored: Images/coca_cola_images/96.jpg
-Deleted: Images/coca_cola_images/flickr_90.jpg
-Deleted: Images/coca_cola_images/143.jpg
+Cropped and saved: Images/coca_cola_images/71.jpg
+Ignored: Images/coca_cola_images/flickr_46.jpg
+Cropped and saved: Images/coca_cola_images/148.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (63).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (309).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (104).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (230).jpg
+Deleted: Images/coca_cola_images/157.jpg
+Deleted: Images/coca_cola_images/88.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (140).jpg
+Cropped and saved: Images/coca_cola_images/images-6.jpg
+Deleted: Images/coca_cola_images/96.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (232).jpg
+Ignored: Images/coca_cola_images/coca-cola (109).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (102).jpg
+Ignored: Images/coca_cola_images/coca-cola (134).jpg
+Cropped and saved: Images/coca_cola_images/image-22.jpg
+Deleted: Images/coca_cola_images/coca-cola (193).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (307).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (194).jpg
+Deleted: Images/coca_cola_images/coca-cola (269).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (227).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (250).jpg
 Cropped and saved: Images/coca_cola_images/unsplash_21.jpg
-Deleted: Images/coca_cola_images/62.jpg
-Deleted: Images/coca_cola_images/flickr_25.jpg
-Ignored: Images/coca_cola_images/116.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_8.jpg
-Deleted: Images/coca_cola_images/flickr_81.jpg
-Deleted: Images/coca_cola_images/flickr_97.jpg
-Deleted: Images/coca_cola_images/179.jpg
-Ignored: Images/coca_cola_images/40.jpg
-Deleted: Images/coca_cola_images/unsplash_19.jpg
-Deleted: Images/coca_cola_images/flickr_78.jpg
-Deleted: Images/coca_cola_images/94.jpg
-Deleted: Images/coca_cola_images/131.jpg
-Deleted: Images/coca_cola_images/flickr_36.jpg
-Ignored: Images/coca_cola_images/63.jpg
-Deleted: Images/coca_cola_images/flickr_79.jpg
-Deleted: Images/coca_cola_images/flickr_67.jpg
-Deleted: Images/coca_cola_images/184.jpg
-Deleted: Images/coca_cola_images/flickr_24.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_22.jpg
-Deleted: Images/coca_cola_images/flickr_56.jpg
-Ignored: Images/coca_cola_images/107.jpg
-Ignored: Images/coca_cola_images/167.jpg
-Deleted: Images/coca_cola_images/flickr_37.jpg
-Deleted: Images/coca_cola_images/flickr_89.jpg
-Deleted: Images/coca_cola_images/unsplash_15.jpg
-Ignored: Images/coca_cola_images/80.jpg
+Cropped and saved: Images/coca_cola_images/116.jpg
+Ignored: Images/coca_cola_images/unsplash_8.jpg
+Ignored: Images/coca_cola_images/coca-cola (173).jpg
+Ignored: Images/coca_cola_images/coca-cola (139).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (15).jpg
+Deleted: Images/coca_cola_images/coca-cola (313).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (185).jpg
+Cropped and saved: Images/coca_cola_images/images-18.jpg
+Ignored: Images/coca_cola_images/coca-cola (223).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (217).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (146).jpg
+Deleted: Images/coca_cola_images/coca-cola (101).jpg
+Cropped and saved: Images/coca_cola_images/40.jpg
+Deleted: Images/coca_cola_images/images-15.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (161).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (22).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (44).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (27).jpg
+Ignored: Images/coca_cola_images/coca-cola (112).jpg
+Cropped and saved: Images/coca_cola_images/63.jpg
+Deleted: Images/coca_cola_images/image-3.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (9).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (285).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (171).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (311).jpg
+Ignored: Images/coca_cola_images/unsplash_22.jpg
+Ignored: Images/coca_cola_images/coca-cola (273).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (34).jpg
+Cropped and saved: Images/coca_cola_images/107.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (280).jpg
+Cropped and saved: Images/coca_cola_images/167.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (308).jpg
+Ignored: Images/coca_cola_images/coca-cola (181).jpg
+Cropped and saved: Images/coca_cola_images/80.jpg
 Cropped and saved: Images/coca_cola_images/unsplash_9.jpg
-Deleted: Images/coca_cola_images/flickr_14.jpg
-Deleted: Images/coca_cola_images/flickr_76.jpg
-Ignored: Images/coca_cola_images/95.jpg
-Deleted: Images/coca_cola_images/flickr_17.jpg
-Ignored: Images/coca_cola_images/50.jpg
-Ignored: Images/coca_cola_images/flickr_91.jpg
-Ignored: Images/coca_cola_images/86.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_3.jpg
-Deleted: Images/coca_cola_images/unsplash_29.jpg
-Deleted: Images/coca_cola_images/flickr_98.jpg
-Cropped and saved: Images/coca_cola_images/139.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_4.jpg
+Deleted: Images/coca_cola_images/images-10.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (62).jpg
+Cropped and saved: Images/coca_cola_images/95.jpg
+Ignored: Images/coca_cola_images/coca-cola (133).jpg
+Deleted: Images/coca_cola_images/coca-cola (208).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (73).jpg
+Cropped and saved: Images/coca_cola_images/50.jpg
+Deleted: Images/coca_cola_images/flickr_91.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (21).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (45).jpg
+Deleted: Images/coca_cola_images/86.jpg
+Ignored: Images/coca_cola_images/unsplash_3.jpg
+Ignored: Images/coca_cola_images/139.jpg
+Ignored: Images/coca_cola_images/coca-cola (30).jpg
+Ignored: Images/coca_cola_images/unsplash_4.jpg
 Ignored: Images/coca_cola_images/174.jpg
-Deleted: Images/coca_cola_images/flickr_49.jpg
-Deleted: Images/coca_cola_images/flickr_39.jpg
-Deleted: Images/coca_cola_images/160.jpg
-Cropped and saved: Images/coca_cola_images/unsplash_24.jpg
-Cropped and saved: Images/coca_cola_images/154.jpg
+Ignored: Images/coca_cola_images/coca-cola (257).jpg
+Ignored: Images/coca_cola_images/coca-cola (218).jpg
+Deleted: Images/coca_cola_images/images-2.jpg
+Ignored: Images/coca_cola_images/coca-cola (58).jpg
+Ignored: Images/coca_cola_images/coca-cola (206).jpg
+Ignored: Images/coca_cola_images/coca-cola (24).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (103).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (6).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (29).jpg
+Deleted: Images/coca_cola_images/coca-cola (202).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (262).jpg
+Deleted: Images/coca_cola_images/coca-cola (216).jpg
+Deleted: Images/coca_cola_images/coca-cola (246).jpg
+Ignored: Images/coca_cola_images/image-17.jpg
+Ignored: Images/coca_cola_images/unsplash_24.jpg
+Deleted: Images/coca_cola_images/coca-cola (256).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (276).jpg
+Deleted: Images/coca_cola_images/154.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (82).jpg
 Ignored: Images/coca_cola_images/103.jpg
-Cropped and saved: Images/coca_cola_images/138.jpg
-Cropped and saved: Images/coca_cola_images/109.jpg
-Cropped and saved: Images/coca_cola_images/106.jpg
-Deleted: Images/coca_cola_images/flickr_48.jpg
-Deleted: Images/coca_cola_images/flickr_31.jpg
-Deleted: Images/coca_cola_images/flickr_86.jpg
-Deleted: Images/coca_cola_images/173.jpg
-Ignored: Images/coca_cola_images/151.jpg
-Deleted: Images/coca_cola_images/199.jpg
-Ignored: Images/coca_cola_images/36.jpg
-Deleted: Images/coca_cola_images/flickr_45.jpg
-Deleted: Images/coca_cola_images/unsplash_2.jpg
-Deleted: Images/coca_cola_images/156.jpg
-Cropped and saved: Images/coca_cola_images/81.jpg
-Ignored: Images/coca_cola_images/46.jpg
-Deleted: Images/coca_cola_images/flickr_18.jpg
-Ignored: Images/coca_cola_images/72.jpg
-Ignored: Images/coca_cola_images/112.jpg
+Ignored: Images/coca_cola_images/coca-cola (74).jpg
+Deleted: Images/coca_cola_images/image-16.jpg
+Ignored: Images/coca_cola_images/138.jpg
+Ignored: Images/coca_cola_images/109.jpg
+Deleted: Images/coca_cola_images/106.jpg
+Deleted: Images/coca_cola_images/coca-cola (71).jpg
+Cropped and saved: Images/coca_cola_images/151.jpg
+Ignored: Images/coca_cola_images/images-32.jpg
+Ignored: Images/coca_cola_images/coca-cola (199).jpg
+Cropped and saved: Images/coca_cola_images/image-32.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (35).jpg
+Cropped and saved: Images/coca_cola_images/36.jpg
+Deleted: Images/coca_cola_images/images-12.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (91).jpg
+Ignored: Images/coca_cola_images/coca-cola (265).jpg
+Ignored: Images/coca_cola_images/81.jpg
+Ignored: Images/coca_cola_images/coca-cola (49).jpg
+Cropped and saved: Images/coca_cola_images/46.jpg
+Deleted: Images/coca_cola_images/coca-cola (298).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (132).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (303).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (189).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (111).jpg
+Cropped and saved: Images/coca_cola_images/72.jpg
+Cropped and saved: Images/coca_cola_images/112.jpg
 Ignored: Images/coca_cola_images/182.jpg
-Ignored: Images/coca_cola_images/30.jpg
-Deleted: Images/coca_cola_images/flickr_42.jpg
-Deleted: Images/coca_cola_images/54.jpg
-Deleted: Images/coca_cola_images/161.jpg
-Deleted: Images/coca_cola_images/flickr_65.jpg
-Ignored: Images/coca_cola_images/113.jpg
-Ignored: Images/coca_cola_images/145.jpg
-Deleted: Images/coca_cola_images/flickr_73.jpg
+Cropped and saved: Images/coca_cola_images/30.jpg
+Ignored: Images/coca_cola_images/coca-cola (220).jpg
+Ignored: Images/coca_cola_images/coca-cola (300).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (312).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (169).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (201).jpg
+Cropped and saved: Images/coca_cola_images/113.jpg
+Deleted: Images/coca_cola_images/145.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (26).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (7).jpg
+Cropped and saved: Images/coca_cola_images/images-53.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (105).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (147).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (37).jpg
 Ignored: Images/coca_cola_images/87.jpg
-Deleted: Images/coca_cola_images/65.jpg
-Deleted: Images/coca_cola_images/flickr_70.jpg
-Ignored: Images/coca_cola_images/186.jpg
-Deleted: Images/coca_cola_images/117.jpg
+Cropped and saved: Images/coca_cola_images/186.jpg
 Cropped and saved: Images/coca_cola_images/180.jpg
-Ignored: Images/coca_cola_images/110.jpg
-Deleted: Images/coca_cola_images/171.jpg
-Deleted: Images/coca_cola_images/flickr_19.jpg
-Deleted: Images/coca_cola_images/flickr_44.jpg
-Deleted: Images/pepsi_images/129.jpg
-Cropped and saved: Images/pepsi_images/unsplash_5.jpg
-Ignored: Images/pepsi_images/190.jpg
-Deleted: Images/pepsi_images/flickr_33.jpg
-Ignored: Images/pepsi_images/150.jpg
-Deleted: Images/pepsi_images/flickr_72.jpg
-Ignored: Images/pepsi_images/73.jpg
-Deleted: Images/pepsi_images/flickr_38.jpg
-Deleted: Images/pepsi_images/32.jpg
-Cropped and saved: Images/pepsi_images/53.jpg
-Cropped and saved: Images/pepsi_images/162.jpg
-Deleted: Images/pepsi_images/flickr_94.jpg
-Ignored: Images/pepsi_images/115.jpg
-Ignored: Images/pepsi_images/177.jpg
-Ignored: Images/pepsi_images/37.jpg
-Deleted: Images/pepsi_images/flickr_21.jpg
-Ignored: Images/pepsi_images/49.jpg
+Cropped and saved: Images/coca_cola_images/110.jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (270).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (59).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (118).jpg
+Cropped and saved: Images/coca_cola_images/coca-cola (294).jpg
+Cropped and saved: Images/pepsi_images/image-27.jpg
+Cropped and saved: Images/pepsi_images/012000008412.jpg
+Ignored: Images/pepsi_images/unsplash_5.jpg
+Cropped and saved: Images/pepsi_images/twil-can.jpg
+Cropped and saved: Images/pepsi_images/190.jpg
+Ignored: Images/pepsi_images/OIP2.jpg
+Cropped and saved: Images/pepsi_images/150.jpg
+Cropped and saved: Images/pepsi_images/73.jpg
+Ignored: Images/pepsi_images/53.jpg
+Deleted: Images/pepsi_images/162.jpg
+Cropped and saved: Images/pepsi_images/115.jpg
+Cropped and saved: Images/pepsi_images/177.jpg
+Cropped and saved: Images/pepsi_images/images-7.jpg
+Cropped and saved: Images/pepsi_images/37.jpg
+Deleted: Images/pepsi_images/image-5.jpg
+Deleted: Images/pepsi_images/49.jpg
 Ignored: Images/pepsi_images/170.jpg
-Deleted: Images/pepsi_images/flickr_95.jpg
-Deleted: Images/pepsi_images/flickr_77.jpg
-Cropped and saved: Images/pepsi_images/98.jpg
-Deleted: Images/pepsi_images/flickr_10.jpg
-Ignored: Images/pepsi_images/83.jpg
-Ignored: Images/pepsi_images/76.jpg
-Deleted: Images/pepsi_images/flickr_64.jpg
+Ignored: Images/pepsi_images/98.jpg
+Cropped and saved: Images/pepsi_images/83.jpg
+Cropped and saved: Images/pepsi_images/76.jpg
 Ignored: Images/pepsi_images/187.jpg
-Deleted: Images/pepsi_images/unsplash_23.jpg
-Deleted: Images/pepsi_images/125.jpg
-Ignored: Images/pepsi_images/60.jpg
-Ignored: Images/pepsi_images/195.jpg
-Cropped and saved: Images/pepsi_images/unsplash_0.jpg
-Ignored: Images/pepsi_images/43.jpg
-Deleted: Images/pepsi_images/flickr_83.jpg
+Cropped and saved: Images/pepsi_images/60.jpg
+Cropped and saved: Images/pepsi_images/195.jpg
+Ignored: Images/pepsi_images/unsplash_0.jpg
+Cropped and saved: Images/pepsi_images/43.jpg
 Cropped and saved: Images/pepsi_images/165.jpg
-Ignored: Images/pepsi_images/133.jpg
-Ignored: Images/pepsi_images/197.jpg
-Deleted: Images/pepsi_images/flickr_74.jpg
-Ignored: Images/pepsi_images/142.jpg
-Ignored: Images/pepsi_images/34.jpg
-Cropped and saved: Images/pepsi_images/89.jpg
-Cropped and saved: Images/pepsi_images/45.jpg
-Deleted: Images/pepsi_images/flickr_3.jpg
-Ignored: Images/pepsi_images/102.jpg
-Deleted: Images/pepsi_images/flickr_68.jpg
-Ignored: Images/pepsi_images/137.jpg
+Cropped and saved: Images/pepsi_images/images-26.jpg
+Cropped and saved: Images/pepsi_images/133.jpg
+Cropped and saved: Images/pepsi_images/360_F_414028105_FhN8SrDVJNFvU8YBRgKm9CcAqnpEDZEI.jpg
+Cropped and saved: Images/pepsi_images/197.jpg
+Cropped and saved: Images/pepsi_images/142.jpg
+Cropped and saved: Images/pepsi_images/34.jpg
+Ignored: Images/pepsi_images/89.jpg
+Cropped and saved: Images/pepsi_images/image-14.jpg
+Deleted: Images/pepsi_images/45.jpg
+Cropped and saved: Images/pepsi_images/102.jpg
+Cropped and saved: Images/pepsi_images/137.jpg
 Ignored: Images/pepsi_images/122.jpg
-Ignored: Images/pepsi_images/47.jpg
+Deleted: Images/pepsi_images/47.jpg
+Cropped and saved: Images/pepsi_images/00012000024498.jpg
 Ignored: Images/pepsi_images/48.jpg
-Deleted: Images/pepsi_images/flickr_84.jpg
-Deleted: Images/pepsi_images/39.jpg
 Cropped and saved: Images/pepsi_images/unsplash_1.jpg
-Cropped and saved: Images/pepsi_images/unsplash_10.jpg
-Deleted: Images/pepsi_images/169.jpg
-Ignored: Images/pepsi_images/97.jpg
-Deleted: Images/pepsi_images/flickr_53.jpg
-Deleted: Images/pepsi_images/flickr_15.jpg
-Deleted: Images/pepsi_images/unsplash_13.jpg
+Ignored: Images/pepsi_images/unsplash_10.jpg
+Cropped and saved: Images/pepsi_images/97.jpg
+Cropped and saved: Images/pepsi_images/image-25.jpg
+Ignored: Images/pepsi_images/103383.jpg
 Ignored: Images/pepsi_images/136.jpg
-Cropped and saved: Images/pepsi_images/185.jpg
-Deleted: Images/pepsi_images/flickr_40.jpg
+Deleted: Images/pepsi_images/185.jpg
 Ignored: Images/pepsi_images/92.jpg
-Ignored: Images/pepsi_images/91.jpg
-Ignored: Images/pepsi_images/153.jpg
-Deleted: Images/pepsi_images/flickr_63.jpg
-Ignored: Images/pepsi_images/31.jpg
-Ignored: Images/pepsi_images/unsplash_26.jpg
-Deleted: Images/pepsi_images/flickr_6.jpg
-Deleted: Images/pepsi_images/flickr_13.jpg
-Cropped and saved: Images/pepsi_images/unsplash_14.jpg
-Ignored: Images/pepsi_images/141.jpg
-Ignored: Images/pepsi_images/166.jpg
-Deleted: Images/pepsi_images/unsplash_25.jpg
+Cropped and saved: Images/pepsi_images/91.jpg
+Cropped and saved: Images/pepsi_images/images-41.jpg
+Cropped and saved: Images/pepsi_images/153.jpg
+Cropped and saved: Images/pepsi_images/images-66.jpg
+Cropped and saved: Images/pepsi_images/Pepsi-Can.jpg
+Cropped and saved: Images/pepsi_images/31.jpg
+Cropped and saved: Images/pepsi_images/image-15.jpg
+Ignored: Images/pepsi_images/unsplash_14.jpg
+Cropped and saved: Images/pepsi_images/141.jpg
+Cropped and saved: Images/pepsi_images/166.jpg
 Ignored: Images/pepsi_images/105.jpg
-Deleted: Images/pepsi_images/flickr_35.jpg
-Deleted: Images/pepsi_images/flickr_52.jpg
-Deleted: Images/pepsi_images/flickr_59.jpg
-Ignored: Images/pepsi_images/193.jpg
-Deleted: Images/pepsi_images/flickr_93.jpg
+Cropped and saved: Images/pepsi_images/193.jpg
+Cropped and saved: Images/pepsi_images/depositphotos_145377087-stock-photo-aytos-bulgaria-march-11-2017.jpg
+Cropped and saved: Images/pepsi_images/OIP4.jpg
 Ignored: Images/pepsi_images/132.jpg
-Deleted: Images/pepsi_images/flickr_92.jpg
-Deleted: Images/pepsi_images/flickr_8.jpg
-Ignored: Images/pepsi_images/85.jpg
-Deleted: Images/pepsi_images/flickr_71.jpg
-Cropped and saved: Images/pepsi_images/130.jpg
-Deleted: Images/pepsi_images/flickr_28.jpg
+Cropped and saved: Images/pepsi_images/image-12.jpg
+Cropped and saved: Images/pepsi_images/image-31.jpg
+Ignored: Images/pepsi_images/b0d1a0c378586dffe23fcfd2e1e730df.jpg
+Ignored: Images/pepsi_images/OIP6.jpg
+Ignored: Images/pepsi_images/depositphotos_175509460-stock-photo-vladivostok-russia-march-2017-pepsi.jpg
+Cropped and saved: Images/pepsi_images/85.jpg
+Ignored: Images/pepsi_images/210802170202-pepsi-zero-sugar-file-restricted.jpg
+Ignored: Images/pepsi_images/130.jpg
 Ignored: Images/pepsi_images/196.jpg
 Cropped and saved: Images/pepsi_images/74.jpg
-Deleted: Images/pepsi_images/flickr_69.jpg
-Deleted: Images/pepsi_images/flickr_96.jpg
-Deleted: Images/pepsi_images/unsplash_28.jpg
-Ignored: Images/pepsi_images/114.jpg
-Deleted: Images/pepsi_images/unsplash_20.jpg
-Ignored: Images/pepsi_images/181.jpg
-Deleted: Images/pepsi_images/flickr_29.jpg
-Ignored: Images/pepsi_images/64.jpg
-Deleted: Images/pepsi_images/flickr_30.jpg
-Ignored: Images/pepsi_images/44.jpg
-Ignored: Images/pepsi_images/59.jpg
-Deleted: Images/pepsi_images/flickr_43.jpg
-Ignored: Images/pepsi_images/191.jpg
-Ignored: Images/pepsi_images/146.jpg
+Cropped and saved: Images/pepsi_images/image-24.jpg
+Cropped and saved: Images/pepsi_images/114.jpg
+Cropped and saved: Images/pepsi_images/181.jpg
+Cropped and saved: Images/pepsi_images/64.jpg
+Cropped and saved: Images/pepsi_images/images.jpg
+Cropped and saved: Images/pepsi_images/images-8.jpg
+Deleted: Images/pepsi_images/44.jpg
+Cropped and saved: Images/pepsi_images/59.jpg
+Cropped and saved: Images/pepsi_images/image-13.jpg
+Ignored: Images/pepsi_images/pepsi-cans-680x511.jpg
+Cropped and saved: Images/pepsi_images/191.jpg
+Cropped and saved: Images/pepsi_images/146.jpg
+Cropped and saved: Images/pepsi_images/images-16.jpg
 Ignored: Images/pepsi_images/unsplash_11.jpg
-Deleted: Images/pepsi_images/flickr_47.jpg
-Ignored: Images/pepsi_images/127.jpg
-Ignored: Images/pepsi_images/79.jpg
+Cropped and saved: Images/pepsi_images/127.jpg
+Cropped and saved: Images/pepsi_images/79.jpg
 Ignored: Images/pepsi_images/175.jpg
-Ignored: Images/pepsi_images/134.jpg
+Cropped and saved: Images/pepsi_images/134.jpg
 Ignored: Images/pepsi_images/100.jpg
-Deleted: Images/pepsi_images/flickr_87.jpg
+Cropped and saved: Images/pepsi_images/pepsi-1.5.jpg
+Cropped and saved: Images/pepsi_images/images-57.jpg
+Ignored: Images/pepsi_images/pepsi-can-bottle-ice.jpg
+Cropped and saved: Images/pepsi_images/depositphotos_62276201-stock-photo-pepsi-cola.jpg
+Cropped and saved: Images/pepsi_images/7.jpg
+Ignored: Images/pepsi_images/OIP8.jpg
 Ignored: Images/pepsi_images/123.jpg
-Deleted: Images/pepsi_images/unsplash_16.jpg
+Cropped and saved: Images/pepsi_images/images-65.jpg
+Cropped and saved: Images/pepsi_images/pngimg.com - pepsi_PNG8.jpg
+Cropped and saved: Images/pepsi_images/images-9.jpg
+Cropped and saved: Images/pepsi_images/depositphotos_81881868-stock-photo-pepsi-bottle-drinks.jpg
 Ignored: Images/pepsi_images/189.jpg
-Deleted: Images/pepsi_images/flickr_5.jpg
+Ignored: Images/pepsi_images/images-55.jpg
 Ignored: Images/pepsi_images/flickr_0.jpg
-Ignored: Images/pepsi_images/121.jpg
-Deleted: Images/pepsi_images/140.jpg
-Deleted: Images/pepsi_images/67.jpg
-Deleted: Images/pepsi_images/flickr_82.jpg
-Ignored: Images/pepsi_images/119.jpg
+Cropped and saved: Images/pepsi_images/121.jpg
+Ignored: Images/pepsi_images/OIP15.jpg
+Cropped and saved: Images/pepsi_images/119.jpg
 Ignored: Images/pepsi_images/101.jpg
-Deleted: Images/pepsi_images/flickr_9.jpg
-Ignored: Images/pepsi_images/198.jpg
-Deleted: Images/pepsi_images/flickr_58.jpg
-Deleted: Images/pepsi_images/flickr_2.jpg
-Ignored: Images/pepsi_images/78.jpg
-Deleted: Images/pepsi_images/unsplash_7.jpg
-Deleted: Images/pepsi_images/flickr_99.jpg
-Deleted: Images/pepsi_images/flickr_27.jpg
-Deleted: Images/pepsi_images/192.jpg
-Deleted: Images/pepsi_images/57.jpg
-Ignored: Images/pepsi_images/172.jpg
-Ignored: Images/pepsi_images/126.jpg
-Ignored: Images/pepsi_images/176.jpg
-Deleted: Images/pepsi_images/flickr_22.jpg
-Ignored: Images/pepsi_images/159.jpg
-Deleted: Images/pepsi_images/flickr_80.jpg
-Deleted: Images/pepsi_images/flickr_11.jpg
-Deleted: Images/pepsi_images/flickr_12.jpg
-Cropped and saved: Images/pepsi_images/111.jpg
-Deleted: Images/pepsi_images/flickr_7.jpg
-Deleted: Images/pepsi_images/flickr_88.jpg
-Deleted: Images/pepsi_images/flickr_16.jpg
-Deleted: Images/pepsi_images/flickr_23.jpg
-Ignored: Images/pepsi_images/178.jpg
-Ignored: Images/pepsi_images/118.jpg
-Ignored: Images/pepsi_images/135.jpg
+Cropped and saved: Images/pepsi_images/198.jpg
+Cropped and saved: Images/pepsi_images/R.jpg
+Cropped and saved: Images/pepsi_images/image-30.jpg
+Cropped and saved: Images/pepsi_images/78.jpg
+Deleted: Images/pepsi_images/image-10.jpg
+Cropped and saved: Images/pepsi_images/images-11.jpg
+Cropped and saved: Images/pepsi_images/172.jpg
+Cropped and saved: Images/pepsi_images/126.jpg
+Cropped and saved: Images/pepsi_images/176.jpg
+Cropped and saved: Images/pepsi_images/159.jpg
+Cropped and saved: Images/pepsi_images/Where-Are-the-Pepsi-Manufacturing-Plants-in-the-USA-1024x576.jpg.jpg
+Ignored: Images/pepsi_images/111.jpg
+Cropped and saved: Images/pepsi_images/depositphotos_62276663-stock-photo-bottle-pepsi-soft-drink.jpg
+Cropped and saved: Images/pepsi_images/images-4.jpg
+Deleted: Images/pepsi_images/image-2.jpg
+Ignored: Images/pepsi_images/OIP10.jpg
+Cropped and saved: Images/pepsi_images/178.jpg
+Cropped and saved: Images/pepsi_images/118.jpg
+Cropped and saved: Images/pepsi_images/135.jpg
+Cropped and saved: Images/pepsi_images/3d395236601bce4a7697d6b78d9eb477.jpg
 Cropped and saved: Images/pepsi_images/41.jpg
-Deleted: Images/pepsi_images/77.jpg
 Cropped and saved: Images/pepsi_images/158.jpg
-Ignored: Images/pepsi_images/93.jpg
+Cropped and saved: Images/pepsi_images/93.jpg
+Cropped and saved: Images/pepsi_images/image-21.jpg
+Cropped and saved: Images/pepsi_images/image-26.jpg
 Cropped and saved: Images/pepsi_images/104.jpg
-Ignored: Images/pepsi_images/155.jpg
-Ignored: Images/pepsi_images/164.jpg
-Deleted: Images/pepsi_images/unsplash_27.jpg
-Ignored: Images/pepsi_images/147.jpg
-Ignored: Images/pepsi_images/55.jpg
-Ignored: Images/pepsi_images/84.jpg
-Ignored: Images/pepsi_images/168.jpg
-Ignored: Images/pepsi_images/194.jpg
-Ignored: Images/pepsi_images/188.jpg
-Ignored: Images/pepsi_images/75.jpg
-Deleted: Images/pepsi_images/unsplash_17.jpg
-Ignored: Images/pepsi_images/108.jpg
-Deleted: Images/pepsi_images/flickr_1.jpg
-Deleted: Images/pepsi_images/33.jpg
-Ignored: Images/pepsi_images/61.jpg
-Ignored: Images/pepsi_images/120.jpg
-Ignored: Images/pepsi_images/163.jpg
-Ignored: Images/pepsi_images/70.jpg
-Ignored: Images/pepsi_images/183.jpg
-Ignored: Images/pepsi_images/52.jpg
-Deleted: Images/pepsi_images/unsplash_18.jpg
-Ignored: Images/pepsi_images/144.jpg
-Ignored: Images/pepsi_images/149.jpg
-Cropped and saved: Images/pepsi_images/58.jpg
-Ignored: Images/pepsi_images/51.jpg
+Cropped and saved: Images/pepsi_images/155.jpg
+Cropped and saved: Images/pepsi_images/164.jpg
+Cropped and saved: Images/pepsi_images/147.jpg
+Cropped and saved: Images/pepsi_images/OIP3.jpg
+Cropped and saved: Images/pepsi_images/image-19.jpg
+Cropped and saved: Images/pepsi_images/55.jpg
+Cropped and saved: Images/pepsi_images/84.jpg
+Cropped and saved: Images/pepsi_images/96-965852_transparent-coke-clipart-pepsi-black-bottle-hd-png.jpg
+Cropped and saved: Images/pepsi_images/168.jpg
+Cropped and saved: Images/pepsi_images/pepsi-regular-2l_2.jpg
+Cropped and saved: Images/pepsi_images/194.jpg
+Cropped and saved: Images/pepsi_images/188.jpg
+Cropped and saved: Images/pepsi_images/75.jpg
+Cropped and saved: Images/pepsi_images/image-20.jpg
+Cropped and saved: Images/pepsi_images/108.jpg
+Cropped and saved: Images/pepsi_images/61.jpg
+Cropped and saved: Images/pepsi_images/120.jpg
+Cropped and saved: Images/pepsi_images/163.jpg
+Cropped and saved: Images/pepsi_images/70.jpg
+Cropped and saved: Images/pepsi_images/183.jpg
+Cropped and saved: Images/pepsi_images/images1.jpg
+Cropped and saved: Images/pepsi_images/OIdasdP.jpg
+Deleted: Images/pepsi_images/52.jpg
+Cropped and saved: Images/pepsi_images/144.jpg
+Cropped and saved: Images/pepsi_images/149.jpg
+Ignored: Images/pepsi_images/58.jpg
+Cropped and saved: Images/pepsi_images/3815_main.jpg
+Ignored: Images/pepsi_images/pepsi-1576585830.jpg
+Cropped and saved: Images/pepsi_images/51.jpg
 Ignored: Images/pepsi_images/38.jpg
+Cropped and saved: Images/pepsi_images/95212_main.jpg
+Ignored: Images/pepsi_images/ap-pepsi-new-bottle-16_9.jpg
 Cropped and saved: Images/pepsi_images/128.jpg
-Ignored: Images/pepsi_images/124.jpg
+Cropped and saved: Images/pepsi_images/124.jpg
 Ignored: Images/pepsi_images/152.jpg
-Deleted: Images/pepsi_images/99.jpg
-Deleted: Images/pepsi_images/35.jpg
-Cropped and saved: Images/pepsi_images/82.jpg
-Deleted: Images/pepsi_images/90.jpg
-Ignored: Images/pepsi_images/68.jpg
-Cropped and saved: Images/pepsi_images/66.jpg
-Cropped and saved: Images/pepsi_images/56.jpg
-Ignored: Images/pepsi_images/42.jpg
-Ignored: Images/pepsi_images/69.jpg
-Deleted: Images/pepsi_images/unsplash_6.jpg
-Ignored: Images/pepsi_images/71.jpg
-Ignored: Images/pepsi_images/148.jpg
-Deleted: Images/pepsi_images/157.jpg
-Ignored: Images/pepsi_images/88.jpg
-Deleted: Images/pepsi_images/96.jpg
-Deleted: Images/pepsi_images/143.jpg
-Deleted: Images/pepsi_images/unsplash_21.jpg
-Ignored: Images/pepsi_images/62.jpg
-Deleted: Images/pepsi_images/116.jpg
-Deleted: Images/pepsi_images/unsplash_8.jpg
-Cropped and saved: Images/pepsi_images/179.jpg
-Deleted: Images/pepsi_images/40.jpg
-Deleted: Images/pepsi_images/unsplash_19.jpg
-Ignored: Images/pepsi_images/94.jpg
-Deleted: Images/pepsi_images/131.jpg
-Ignored: Images/pepsi_images/63.jpg
-Cropped and saved: Images/pepsi_images/184.jpg
-Deleted: Images/pepsi_images/unsplash_22.jpg
-Deleted: Images/pepsi_images/107.jpg
-Ignored: Images/pepsi_images/167.jpg
-Deleted: Images/pepsi_images/unsplash_15.jpg
-Ignored: Images/pepsi_images/80.jpg
-Deleted: Images/pepsi_images/unsplash_9.jpg
-Deleted: Images/pepsi_images/95.jpg
-Deleted: Images/pepsi_images/50.jpg
-Deleted: Images/pepsi_images/86.jpg
-Deleted: Images/pepsi_images/unsplash_3.jpg
-Deleted: Images/pepsi_images/unsplash_29.jpg
-Ignored: Images/pepsi_images/139.jpg
-Cropped and saved: Images/pepsi_images/unsplash_4.jpg
-Ignored: Images/pepsi_images/174.jpg
+Cropped and saved: Images/pepsi_images/640x640.jpg
+Cropped and saved: Images/pepsi_images/images-62.jpg
+Ignored: Images/pepsi_images/82.jpg
+Cropped and saved: Images/pepsi_images/68.jpg
+Ignored: Images/pepsi_images/66.jpg
+Ignored: Images/pepsi_images/image-7.jpg
+Ignored: Images/pepsi_images/56.jpg
+Cropped and saved: Images/pepsi_images/images-45.jpg
+Deleted: Images/pepsi_images/image-11.jpg
+Ignored: Images/pepsi_images/ft-pepsi.jpg
+Cropped and saved: Images/pepsi_images/42.jpg
+Cropped and saved: Images/pepsi_images/OIP.jpg
+Cropped and saved: Images/pepsi_images/69.jpg
+Cropped and saved: Images/pepsi_images/71.jpg
+Cropped and saved: Images/pepsi_images/148.jpg
+Cropped and saved: Images/pepsi_images/88.jpg
+Cropped and saved: Images/pepsi_images/images-23.jpg
+Cropped and saved: Images/pepsi_images/image-29.jpg
+Cropped and saved: Images/pepsi_images/images-6.jpg
+Cropped and saved: Images/pepsi_images/image-22.jpg
+Cropped and saved: Images/pepsi_images/038433.jpg
+Cropped and saved: Images/pepsi_images/62.jpg
+Cropped and saved: Images/pepsi_images/images-3.jpg
+Ignored: Images/pepsi_images/179.jpg
+Cropped and saved: Images/pepsi_images/images-15.jpg
+Cropped and saved: Images/pepsi_images/94.jpg
+Cropped and saved: Images/pepsi_images/63.jpg
+Cropped and saved: Images/pepsi_images/d9d02e01a9b02b30db0f64044ad9a9fd9103382a579a6d6396fe51a6807d5f70.jpg
+Ignored: Images/pepsi_images/184.jpg
+Cropped and saved: Images/pepsi_images/71J0Y0pf6IL.jpg
+Ignored: Images/pepsi_images/OIP11.jpg
+Cropped and saved: Images/pepsi_images/167.jpg
+Cropped and saved: Images/pepsi_images/depositphotos_183602512-stock-photo-baku-azerbaijan-january-132018-pepsi.jpg
+Ignored: Images/pepsi_images/Pepsi.jpg
+Ignored: Images/pepsi_images/OIP16.jpg
+Cropped and saved: Images/pepsi_images/image-4.jpg
+Cropped and saved: Images/pepsi_images/80.jpg
+Ignored: Images/pepsi_images/OIP7.jpg
+Cropped and saved: Images/pepsi_images/139.jpg
+Ignored: Images/pepsi_images/unsplash_4.jpg
+Cropped and saved: Images/pepsi_images/depositphotos_175508580-stock-photo-vladivostok-russia-march-2017-pepsi.jpg
+Cropped and saved: Images/pepsi_images/174.jpg
+Cropped and saved: Images/pepsi_images/images-2.jpg
 Ignored: Images/pepsi_images/160.jpg
-Ignored: Images/pepsi_images/154.jpg
-Ignored: Images/pepsi_images/103.jpg
-Ignored: Images/pepsi_images/138.jpg
-Ignored: Images/pepsi_images/109.jpg
-Ignored: Images/pepsi_images/106.jpg
-Deleted: Images/pepsi_images/173.jpg
-Deleted: Images/pepsi_images/151.jpg
-Ignored: Images/pepsi_images/199.jpg
-Ignored: Images/pepsi_images/36.jpg
+Cropped and saved: Images/pepsi_images/image-17.jpg
+Cropped and saved: Images/pepsi_images/154.jpg
+Cropped and saved: Images/pepsi_images/103.jpg
+Cropped and saved: Images/pepsi_images/035808.jpg
+Cropped and saved: Images/pepsi_images/images-5.jpg
+Cropped and saved: Images/pepsi_images/image-16.jpg
+Cropped and saved: Images/pepsi_images/138.jpg
+Cropped and saved: Images/pepsi_images/109.jpg
+Cropped and saved: Images/pepsi_images/106.jpg
+Ignored: Images/pepsi_images/OIP12.jpg
+Cropped and saved: Images/pepsi_images/199.jpg
+Cropped and saved: Images/pepsi_images/images-32.jpg
+Cropped and saved: Images/pepsi_images/00012000180217.jpg
+Cropped and saved: Images/pepsi_images/36.jpg
+Cropped and saved: Images/pepsi_images/images-12.jpg
 Ignored: Images/pepsi_images/unsplash_2.jpg
-Ignored: Images/pepsi_images/156.jpg
-Ignored: Images/pepsi_images/81.jpg
-Ignored: Images/pepsi_images/46.jpg
-Ignored: Images/pepsi_images/72.jpg
-Ignored: Images/pepsi_images/112.jpg
-Ignored: Images/pepsi_images/182.jpg
-Ignored: Images/pepsi_images/30.jpg
-Ignored: Images/pepsi_images/54.jpg
-Ignored: Images/pepsi_images/161.jpg
-Ignored: Images/pepsi_images/113.jpg
-Ignored: Images/pepsi_images/145.jpg
-Ignored: Images/pepsi_images/87.jpg
+Cropped and saved: Images/pepsi_images/156.jpg
+Cropped and saved: Images/pepsi_images/81.jpg
+Cropped and saved: Images/pepsi_images/46.jpg
+Cropped and saved: Images/pepsi_images/images-47.jpg
+Ignored: Images/pepsi_images/1.jpg
+Cropped and saved: Images/pepsi_images/72.jpg
+Cropped and saved: Images/pepsi_images/112.jpg
+Cropped and saved: Images/pepsi_images/182.jpg
+Cropped and saved: Images/pepsi_images/30.jpg
+Cropped and saved: Images/pepsi_images/54.jpg
+Cropped and saved: Images/pepsi_images/161.jpg
+Cropped and saved: Images/pepsi_images/113.jpg
+Cropped and saved: Images/pepsi_images/145.jpg
+Cropped and saved: Images/pepsi_images/87.jpg
+Cropped and saved: Images/pepsi_images/350018_main.jpg
 Ignored: Images/pepsi_images/65.jpg
-Ignored: Images/pepsi_images/186.jpg
-Ignored: Images/pepsi_images/117.jpg
-Ignored: Images/pepsi_images/180.jpg
-Ignored: Images/pepsi_images/110.jpg
-Ignored: Images/pepsi_images/171.jpg
-Ignored: Images/heineken_beer_images/image (82).jpg
-Ignored: Images/heineken_beer_images/image (41).jpg
-Deleted: Images/heineken_beer_images/unsplash_5.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_33.jpg
-Deleted: Images/heineken_beer_images/flickr_72.jpg
-Deleted: Images/heineken_beer_images/image (83).jpg
-Deleted: Images/heineken_beer_images/image (230).jpg
-Ignored: Images/heineken_beer_images/image (34).jpg
-Ignored: Images/heineken_beer_images/image (76).jpg
-Ignored: Images/heineken_beer_images/flickr_38.jpg
-Deleted: Images/heineken_beer_images/flickr_94.jpg
-Deleted: Images/heineken_beer_images/image (229).jpg
-Ignored: Images/heineken_beer_images/image (183).jpg
-Cropped and saved: Images/heineken_beer_images/image (138).jpg
-Ignored: Images/heineken_beer_images/image (118).jpg
-Ignored: Images/heineken_beer_images/image (107).jpg
-Deleted: Images/heineken_beer_images/image (117).jpg
-Ignored: Images/heineken_beer_images/flickr_21.jpg
-Deleted: Images/heineken_beer_images/image (111).jpg
-Deleted: Images/heineken_beer_images/image (206).jpg
-Deleted: Images/heineken_beer_images/flickr_95.jpg
-Deleted: Images/heineken_beer_images/flickr_77.jpg
-Deleted: Images/heineken_beer_images/flickr_10.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_64.jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_23.jpg
-Deleted: Images/heineken_beer_images/image (9).jpg
-Deleted: Images/heineken_beer_images/image (91).jpg
-Deleted: Images/heineken_beer_images/image (29).jpg
-Deleted: Images/heineken_beer_images/unsplash_0.jpg
-Cropped and saved: Images/heineken_beer_images/image (116).jpg
-Deleted: Images/heineken_beer_images/flickr_83.jpg
-Deleted: Images/heineken_beer_images/image (109).jpg
-Ignored: Images/heineken_beer_images/flickr_74.jpg
-Ignored: Images/heineken_beer_images/image (154).jpg
-Deleted: Images/heineken_beer_images/image (99).jpg
-Deleted: Images/heineken_beer_images/image (112).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_3.jpg
-Ignored: Images/heineken_beer_images/flickr_68.jpg
-Ignored: Images/heineken_beer_images/image (172).jpg
-Deleted: Images/heineken_beer_images/image (189).jpg
-Deleted: Images/heineken_beer_images/image (35).jpg
-Deleted: Images/heineken_beer_images/image (90).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_84.jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_1.jpg
-Deleted: Images/heineken_beer_images/image (188).jpg
-Deleted: Images/heineken_beer_images/image (234).jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_10.jpg
-Ignored: Images/heineken_beer_images/image (190).jpg
-Deleted: Images/heineken_beer_images/flickr_53.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_15.jpg
-Deleted: Images/heineken_beer_images/unsplash_13.jpg
-Deleted: Images/heineken_beer_images/image (225).jpg
-Ignored: Images/heineken_beer_images/image (40).jpg
-Ignored: Images/heineken_beer_images/image (185).jpg
-Deleted: Images/heineken_beer_images/image (179).jpg
-Deleted: Images/heineken_beer_images/image (140).jpg
-Cropped and saved: Images/heineken_beer_images/image (193).jpg
-Deleted: Images/heineken_beer_images/image (198).jpg
-Deleted: Images/heineken_beer_images/flickr_40.jpg
-Deleted: Images/heineken_beer_images/image (13).jpg
-Deleted: Images/heineken_beer_images/image (21).jpg
-Deleted: Images/heineken_beer_images/flickr_63.jpg
-Deleted: Images/heineken_beer_images/image (201).jpg
-Deleted: Images/heineken_beer_images/image (75).jpg
-Deleted: Images/heineken_beer_images/image (61).jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_26.jpg
-Deleted: Images/heineken_beer_images/image (191).jpg
-Ignored: Images/heineken_beer_images/flickr_6.jpg
-Ignored: Images/heineken_beer_images/flickr_13.jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_14.jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_25.jpg
-Deleted: Images/heineken_beer_images/image (187).jpg
-Deleted: Images/heineken_beer_images/image (121).jpg
-Ignored: Images/heineken_beer_images/flickr_35.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_52.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_59.jpg
-Cropped and saved: Images/heineken_beer_images/image (45).jpg
-Ignored: Images/heineken_beer_images/flickr_93.jpg
-Ignored: Images/heineken_beer_images/flickr_92.jpg
-Ignored: Images/heineken_beer_images/image (205).jpg
-Deleted: Images/heineken_beer_images/image (11).jpg
-Ignored: Images/heineken_beer_images/image (85).jpg
-Deleted: Images/heineken_beer_images/image (150).jpg
-Deleted: Images/heineken_beer_images/image (155).jpg
-Deleted: Images/heineken_beer_images/image (142).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_8.jpg
-Deleted: Images/heineken_beer_images/image (103).jpg
-Cropped and saved: Images/heineken_beer_images/image (31).jpg
-Ignored: Images/heineken_beer_images/flickr_71.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_28.jpg
-Deleted: Images/heineken_beer_images/image (192).jpg
-Deleted: Images/heineken_beer_images/image (219).jpg
-Deleted: Images/heineken_beer_images/image (227).jpg
-Ignored: Images/heineken_beer_images/image (149).jpg
-Ignored: Images/heineken_beer_images/flickr_69.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_96.jpg
-Deleted: Images/heineken_beer_images/image (177).jpg
-Deleted: Images/heineken_beer_images/unsplash_28.jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_20.jpg
-Deleted: Images/heineken_beer_images/image (65).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_29.jpg
-Deleted: Images/heineken_beer_images/image (124).jpg
-Ignored: Images/heineken_beer_images/image (156).jpg
-Ignored: Images/heineken_beer_images/image (166).jpg
-Ignored: Images/heineken_beer_images/image (66).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_30.jpg
-Cropped and saved: Images/heineken_beer_images/image (100).jpg
-Ignored: Images/heineken_beer_images/image (98).jpg
-Deleted: Images/heineken_beer_images/image (122).jpg
-Ignored: Images/heineken_beer_images/flickr_43.jpg
-Ignored: Images/heineken_beer_images/image (168).jpg
-Ignored: Images/heineken_beer_images/image (69).jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_11.jpg
-Deleted: Images/heineken_beer_images/image (88).jpg
-Deleted: Images/heineken_beer_images/image (204).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_47.jpg
-Deleted: Images/heineken_beer_images/image (240).jpg
-Deleted: Images/heineken_beer_images/image (18).jpg
-Deleted: Images/heineken_beer_images/image (96).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_87.jpg
-Deleted: Images/heineken_beer_images/image (70).jpg
-Ignored: Images/heineken_beer_images/image (52).jpg
-Deleted: Images/heineken_beer_images/image (221).jpg
-Deleted: Images/heineken_beer_images/image (218).jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_16.jpg
-Deleted: Images/heineken_beer_images/image (141).jpg
-Ignored: Images/heineken_beer_images/image (84).jpg
-Deleted: Images/heineken_beer_images/image (152).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_5.jpg
-Deleted: Images/heineken_beer_images/flickr_0.jpg
-Deleted: Images/heineken_beer_images/image (20).jpg
-Deleted: Images/heineken_beer_images/image (25).jpg
-Deleted: Images/heineken_beer_images/image (74).jpg
-Ignored: Images/heineken_beer_images/flickr_82.jpg
-Ignored: Images/heineken_beer_images/image (49).jpg
-Deleted: Images/heineken_beer_images/image (194).jpg
-Deleted: Images/heineken_beer_images/image (157).jpg
-Deleted: Images/heineken_beer_images/image (202).jpg
-Ignored: Images/heineken_beer_images/flickr_9.jpg
-Deleted: Images/heineken_beer_images/image (169).jpg
-Deleted: Images/heineken_beer_images/image (199).jpg
-Deleted: Images/heineken_beer_images/image (228).jpg
-Deleted: Images/heineken_beer_images/flickr_58.jpg
-Deleted: Images/heineken_beer_images/flickr_2.jpg
-Deleted: Images/heineken_beer_images/image (47).jpg
-Deleted: Images/heineken_beer_images/image (110).jpg
-Deleted: Images/heineken_beer_images/image (232).jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_7.jpg
-Deleted: Images/heineken_beer_images/image (55).jpg
-Ignored: Images/heineken_beer_images/flickr_99.jpg
-Deleted: Images/heineken_beer_images/image (174).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_27.jpg
-Deleted: Images/heineken_beer_images/image (5).jpg
-Deleted: Images/heineken_beer_images/image (67).jpg
-Deleted: Images/heineken_beer_images/flickr_22.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_80.jpg
-Deleted: Images/heineken_beer_images/flickr_11.jpg
-Deleted: Images/heineken_beer_images/image (80).jpg
-Ignored: Images/heineken_beer_images/image (125).jpg
-Deleted: Images/heineken_beer_images/image (64).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_12.jpg
-Deleted: Images/heineken_beer_images/image (145).jpg
-Deleted: Images/heineken_beer_images/image (235).jpg
-Deleted: Images/heineken_beer_images/image (162).jpg
-Deleted: Images/heineken_beer_images/image (143).jpg
-Deleted: Images/heineken_beer_images/flickr_7.jpg
-Ignored: Images/heineken_beer_images/flickr_88.jpg
-Ignored: Images/heineken_beer_images/flickr_16.jpg
-Ignored: Images/heineken_beer_images/image (163).jpg
-Ignored: Images/heineken_beer_images/image (158).jpg
-Deleted: Images/heineken_beer_images/flickr_23.jpg
-Ignored: Images/heineken_beer_images/image (146).jpg
-Deleted: Images/heineken_beer_images/image (27).jpg
-Deleted: Images/heineken_beer_images/image (63).jpg
-Deleted: Images/heineken_beer_images/image (119).jpg
-Deleted: Images/heineken_beer_images/image (120).jpg
-Deleted: Images/heineken_beer_images/flickr_26.jpg
-Deleted: Images/heineken_beer_images/image (22).jpg
-Ignored: Images/heineken_beer_images/image (51).jpg
-Deleted: Images/heineken_beer_images/flickr_57.jpg
-Deleted: Images/heineken_beer_images/image (200).jpg
-Deleted: Images/heineken_beer_images/image (181).jpg
-Deleted: Images/heineken_beer_images/image (178).jpg
-Deleted: Images/heineken_beer_images/image (104).jpg
-Deleted: Images/heineken_beer_images/image (24).jpg
-Deleted: Images/heineken_beer_images/image (159).jpg
-Deleted: Images/heineken_beer_images/image (231).jpg
-Ignored: Images/heineken_beer_images/image (108).jpg
-Deleted: Images/heineken_beer_images/flickr_32.jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_27.jpg
-Cropped and saved: Images/heineken_beer_images/image (195).jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_12.jpg
-Deleted: Images/heineken_beer_images/image (236).jpg
-Deleted: Images/heineken_beer_images/flickr_66.jpg
-Deleted: Images/heineken_beer_images/image (224).jpg
-Deleted: Images/heineken_beer_images/image (132).jpg
-Deleted: Images/heineken_beer_images/image (126).jpg
-Deleted: Images/heineken_beer_images/image (86).jpg
-Deleted: Images/heineken_beer_images/unsplash_17.jpg
-Deleted: Images/heineken_beer_images/image (170).jpg
-Deleted: Images/heineken_beer_images/image (139).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_1.jpg
-Deleted: Images/heineken_beer_images/image (207).jpg
-Deleted: Images/heineken_beer_images/image (123).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_41.jpg
-Deleted: Images/heineken_beer_images/image (165).jpg
-Ignored: Images/heineken_beer_images/image (14).jpg
-Ignored: Images/heineken_beer_images/image (97).jpg
-Deleted: Images/heineken_beer_images/image (62).jpg
-Ignored: Images/heineken_beer_images/image (106).jpg
-Ignored: Images/heineken_beer_images/image (94).jpg
-Ignored: Images/heineken_beer_images/flickr_4.jpg
-Deleted: Images/heineken_beer_images/image (26).jpg
-Deleted: Images/heineken_beer_images/image (81).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_75.jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_18.jpg
-Ignored: Images/heineken_beer_images/image (12).jpg
-Deleted: Images/heineken_beer_images/image (147).jpg
-Ignored: Images/heineken_beer_images/image (151).jpg
-Deleted: Images/heineken_beer_images/image (59).jpg
-Ignored: Images/heineken_beer_images/image (182).jpg
-Ignored: Images/heineken_beer_images/image (128).jpg
-Deleted: Images/heineken_beer_images/image (220).jpg
-Ignored: Images/heineken_beer_images/image (32).jpg
-Deleted: Images/heineken_beer_images/image (48).jpg
-Deleted: Images/heineken_beer_images/image (144).jpg
-Deleted: Images/heineken_beer_images/flickr_54.jpg
-Deleted: Images/heineken_beer_images/flickr_85.jpg
-Deleted: Images/heineken_beer_images/image (208).jpg
-Deleted: Images/heineken_beer_images/image (222).jpg
-Ignored: Images/heineken_beer_images/image (134).jpg
-Deleted: Images/heineken_beer_images/image (37).jpg
-Deleted: Images/heineken_beer_images/image (43).jpg
-Deleted: Images/heineken_beer_images/flickr_50.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_62.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_51.jpg
-Deleted: Images/heineken_beer_images/image (180).jpg
-Deleted: Images/heineken_beer_images/image (217).jpg
-Deleted: Images/heineken_beer_images/flickr_20.jpg
-Deleted: Images/heineken_beer_images/image (30).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_61.jpg
-Deleted: Images/heineken_beer_images/flickr_34.jpg
-Ignored: Images/heineken_beer_images/image (209).jpg
-Deleted: Images/heineken_beer_images/image (54).jpg
-Deleted: Images/heineken_beer_images/image (60).jpg
-Deleted: Images/heineken_beer_images/image (164).jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_6.jpg
-Ignored: Images/heineken_beer_images/flickr_55.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_46.jpg
-Deleted: Images/heineken_beer_images/image (78).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_60.jpg
-Deleted: Images/heineken_beer_images/image (58).jpg
-Ignored: Images/heineken_beer_images/image (77).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_90.jpg
-Deleted: Images/heineken_beer_images/image (93).jpg
-Deleted: Images/heineken_beer_images/image (239).jpg
-Deleted: Images/heineken_beer_images/unsplash_21.jpg
-Deleted: Images/heineken_beer_images/image (186).jpg
-Deleted: Images/heineken_beer_images/image (28).jpg
-Deleted: Images/heineken_beer_images/image (105).jpg
-Deleted: Images/heineken_beer_images/image (214).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_25.jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_8.jpg
-Ignored: Images/heineken_beer_images/image (8).jpg
-Deleted: Images/heineken_beer_images/flickr_81.jpg
-Deleted: Images/heineken_beer_images/image (7).jpg
-Deleted: Images/heineken_beer_images/image (129).jpg
-Deleted: Images/heineken_beer_images/image (153).jpg
-Deleted: Images/heineken_beer_images/image (226).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_97.jpg
-Ignored: Images/heineken_beer_images/image (212).jpg
-Deleted: Images/heineken_beer_images/image (57).jpg
-Deleted: Images/heineken_beer_images/image (135).jpg
-Deleted: Images/heineken_beer_images/image (130).jpg
-Cropped and saved: Images/heineken_beer_images/image (113).jpg
-Deleted: Images/heineken_beer_images/unsplash_19.jpg
-Deleted: Images/heineken_beer_images/flickr_78.jpg
-Ignored: Images/heineken_beer_images/image (210).jpg
-Ignored: Images/heineken_beer_images/image (73).jpg
-Ignored: Images/heineken_beer_images/flickr_36.jpg
-Deleted: Images/heineken_beer_images/image (36).jpg
-Deleted: Images/heineken_beer_images/flickr_79.jpg
-Deleted: Images/heineken_beer_images/image (2).jpg
-Ignored: Images/heineken_beer_images/image (137).jpg
-Ignored: Images/heineken_beer_images/image (39).jpg
-Ignored: Images/heineken_beer_images/flickr_67.jpg
-Ignored: Images/heineken_beer_images/image (213).jpg
-Ignored: Images/heineken_beer_images/image (33).jpg
-Deleted: Images/heineken_beer_images/image (46).jpg
-Deleted: Images/heineken_beer_images/image (136).jpg
-Deleted: Images/heineken_beer_images/image (92).jpg
-Deleted: Images/heineken_beer_images/image (44).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_24.jpg
-Deleted: Images/heineken_beer_images/unsplash_22.jpg
-Deleted: Images/heineken_beer_images/flickr_56.jpg
-Deleted: Images/heineken_beer_images/image (23).jpg
-Deleted: Images/heineken_beer_images/flickr_37.jpg
-Deleted: Images/heineken_beer_images/image (10).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_89.jpg
-Deleted: Images/heineken_beer_images/image (148).jpg
-Deleted: Images/heineken_beer_images/unsplash_15.jpg
-Deleted: Images/heineken_beer_images/image (42).jpg
-Cropped and saved: Images/heineken_beer_images/image (50).jpg
-Ignored: Images/heineken_beer_images/image (15).jpg
-Deleted: Images/heineken_beer_images/image (38).jpg
-Deleted: Images/heineken_beer_images/image (6).jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_9.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_14.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_76.jpg
-Deleted: Images/heineken_beer_images/image (4).jpg
-Ignored: Images/heineken_beer_images/image (216).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_17.jpg
-Deleted: Images/heineken_beer_images/image (211).jpg
-Ignored: Images/heineken_beer_images/image (72).jpg
-Deleted: Images/heineken_beer_images/flickr_91.jpg
-Ignored: Images/heineken_beer_images/image (196).jpg
-Ignored: Images/heineken_beer_images/image (56).jpg
-Deleted: Images/heineken_beer_images/unsplash_29.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_98.jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_4.jpg
-Ignored: Images/heineken_beer_images/image (215).jpg
-Ignored: Images/heineken_beer_images/flickr_49.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_39.jpg
-Deleted: Images/heineken_beer_images/image (68).jpg
-Ignored: Images/heineken_beer_images/image (197).jpg
-Cropped and saved: Images/heineken_beer_images/unsplash_24.jpg
-Ignored: Images/heineken_beer_images/image (89).jpg
-Deleted: Images/heineken_beer_images/image (238).jpg
-Deleted: Images/heineken_beer_images/image (203).jpg
-Deleted: Images/heineken_beer_images/image (79).jpg
-Ignored: Images/heineken_beer_images/flickr_48.jpg
-Cropped and saved: Images/heineken_beer_images/flickr_31.jpg
-Ignored: Images/heineken_beer_images/flickr_86.jpg
-Deleted: Images/heineken_beer_images/image (19).jpg
-Ignored: Images/heineken_beer_images/image (167).jpg
-Deleted: Images/heineken_beer_images/image (16).jpg
-Ignored: Images/heineken_beer_images/image (114).jpg
-Deleted: Images/heineken_beer_images/image (173).jpg
-Deleted: Images/heineken_beer_images/image (237).jpg
-Deleted: Images/heineken_beer_images/flickr_45.jpg
-Deleted: Images/heineken_beer_images/image (115).jpg
-Ignored: Images/heineken_beer_images/flickr_18.jpg
-Deleted: Images/heineken_beer_images/image (176).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_42.jpg
-Deleted: Images/heineken_beer_images/image (71).jpg
-Deleted: Images/heineken_beer_images/image (131).jpg
-Deleted: Images/heineken_beer_images/image (133).jpg
-Deleted: Images/heineken_beer_images/flickr_65.jpg
-Deleted: Images/heineken_beer_images/image (160).jpg
-Deleted: Images/heineken_beer_images/image (17).jpg
-Ignored: Images/heineken_beer_images/flickr_73.jpg
-Ignored: Images/heineken_beer_images/image (102).jpg
-Ignored: Images/heineken_beer_images/image (161).jpg
-Deleted: Images/heineken_beer_images/image (175).jpg
-Deleted: Images/heineken_beer_images/flickr_70.jpg
-Deleted: Images/heineken_beer_images/image (1).jpg
-Ignored: Images/heineken_beer_images/image (95).jpg
-Deleted: Images/heineken_beer_images/image (184).jpg
-Deleted: Images/heineken_beer_images/image (233).jpg
-Ignored: Images/heineken_beer_images/image (53).jpg
-Deleted: Images/heineken_beer_images/image (3).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_19.jpg
-Ignored: Images/heineken_beer_images/image (127).jpg
-Deleted: Images/heineken_beer_images/image (171).jpg
-Cropped and saved: Images/heineken_beer_images/flickr_44.jpg
-Ignored: Images/heineken_beer_images/image (223).jpg
+Cropped and saved: Images/pepsi_images/186.jpg
+Cropped and saved: Images/pepsi_images/117.jpg
+Ignored: Images/pepsi_images/OIP13.jpg
+Cropped and saved: Images/pepsi_images/images-17.jpg
+Cropped and saved: Images/pepsi_images/180.jpg
+Cropped and saved: Images/pepsi_images/110.jpg
+Cropped and saved: Images/pepsi_images/171.jpg
+Cropped and saved: Images/coca_cola_images/114_rotated_-5.jpg

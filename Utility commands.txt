@@ -1,3 +1,8 @@
 To delete all the files that ends with "_rotated_45.jpg" and "_rotated_125" type:
 
-rm *_rotated_120.jpg *_rotated_45.jpg
+rm *_rotated_5.jpg *_rotated_-5.jpg *_mirrored.jpg
+
+.webp
+.png
+.jpg
+.jpeg

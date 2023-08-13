@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drink Brand Detection</title>
+    <!-- I've made a correction here: 'css/style.css' should be 'js/script.js' -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <h1>Quench Quest - Drinks Classifier</h1>
+
+    <h2>Upload Image</h2>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+    {% if request.method == 'POST' %}
+    <img src="{{ uploaded_image }}" width="300">
+    <h3>Predicted Brand: {{ label }} with confidence: {{ confidence }}</h3>
+    {% endif %}
+
+    <h2>Webcam Capture</h2>
+    <button onclick="startWebcam()">Start Webcam</button>
+    <div id="webcam-container">
+        <!-- Webcam will be displayed here -->
+    </div>
+    <!-- Div to display real-time prediction results from the webcam -->
+    <div id="webcam-prediction"></div>
+</body>
+</html>
